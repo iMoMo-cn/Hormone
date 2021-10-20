@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "hormone:paste_bone"
+    },
+    "B": {
+      "item": "hormone:hormone_empty"
+    }
+  },
+    "result": {
+      "item": "hormone:hormone_bone",
+      "count": 1
+    }
+}
