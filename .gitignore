@@ -17,6 +17,7 @@ out
 build
 .gradle
 
+
 # other
 eclipse
 run/*
@@ -26,6 +27,7 @@ runServer/*
 !runServer/server.properties
 
 #自定义
+.gitignore
 0新建物品或其他方块.bat
 1_其一，setupDecomp.bat
 打包前记得改版本号.bat
