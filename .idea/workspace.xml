@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="783ae80e-89b3-428a-b981-2d9a88f8b39c" name="默认更改列表" comment="发布版-1.2.1" />
+    <list default="true" id="783ae80e-89b3-428a-b981-2d9a88f8b39c" name="默认更改列表" comment="发布版-1.2.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -55,12 +57,33 @@
     <favorites_list name="Hormone" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/entity/creatures/Villager/VillagerRegistryHandler.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/item/ModItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="532">
+              <caret line="37" column="98" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="162" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/InstantGrowth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemFood.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1900">
+              <caret line="130" column="20" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -188,8 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,7 +272,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="momo" type="462c0819:PsiDirectoryNode" />
               <item name="hormone" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
@@ -262,76 +283,19 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="momo" type="462c0819:PsiDirectoryNode" />
               <item name="hormone" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="creatures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="momo" type="462c0819:PsiDirectoryNode" />
-              <item name="hormone" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="creatures" type="462c0819:PsiDirectoryNode" />
-              <item name="Villager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="hormone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="hormone" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="hormone" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
               <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HarderEquipments" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -449,9 +413,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64447594" visible="true" weight="0.269437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64447594" visible="true" weight="0.28485253" />
       <window_info id="Structure" order="1" sideWeight="0.3555241" side_tool="true" weight="0.2774799" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -543,13 +506,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="发布版-1.2.1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/blocks/builder/BlockBuilderOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/blocks/builder/BlockBuilderBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -855,39 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/item/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="112" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
-          <folding>
-            <element signature="e#523#538#0" expanded="true" />
-            <element signature="e#631#646#0" expanded="true" />
-            <element signature="e#740#756#0" expanded="true" />
-            <element signature="e#848#862#0" expanded="true" />
-            <element signature="e#954#968#0" expanded="true" />
-            <element signature="e#1062#1078#0" expanded="true" />
-            <element signature="e#1173#1190#0" expanded="true" />
-            <element signature="e#1288#1308#0" expanded="true" />
-            <element signature="e#1403#1420#0" expanded="true" />
-            <element signature="e#1515#1532#0" expanded="true" />
-            <element signature="e#1628#1646#0" expanded="true" />
-            <element signature="e#1740#1756#0" expanded="true" />
-            <element signature="e#1850#1866#0" expanded="true" />
-            <element signature="e#1962#1980#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/InstantGrowth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/passive/EntityCow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
@@ -914,8 +837,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/entity/creatures/Villager/VillagerRegistryHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
+        <state relative-caret-position="19">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/item/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="37" column="98" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/item/ItemFood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="130" column="20" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/InstantGrowth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
