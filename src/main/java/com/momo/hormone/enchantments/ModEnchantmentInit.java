@@ -1,7 +1,7 @@
 package com.momo.hormone.enchantments;
 
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.util.CommonDef;
-import com.momo.hormone.IdlFramework;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -19,7 +19,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-@Mod.EventBusSubscriber(modid = IdlFramework.MODID)
+@Mod.EventBusSubscriber(modid = MoMoFramework.MODID)
 public class ModEnchantmentInit {
 
     public static final EntityEquipmentSlot[] armorSlots = new EntityEquipmentSlot[] {EntityEquipmentSlot.HEAD, EntityEquipmentSlot.CHEST, EntityEquipmentSlot.LEGS, EntityEquipmentSlot.FEET};
@@ -46,8 +46,6 @@ public class ModEnchantmentInit {
 
     public static void BeforeRegister()
     {
-        //ANTI_AOA.setHidden(!MetaUtil.isLoaded_AOA3);
-
         ApplyConflictGroup(WEAPON_DAMAGE_CONFLICT_GROUP);
     }
 

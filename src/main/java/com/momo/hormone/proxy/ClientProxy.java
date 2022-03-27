@@ -1,5 +1,9 @@
 package com.momo.hormone.proxy;
 
+import com.momo.hormone.entity.tiles.ModTileEntityItemStackRenderer;
+import com.momo.hormone.item.ItemVariantBase;
+import com.momo.hormone.item.shields.ItemShieldBase;
+import com.momo.hormone.util.IMetaName;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.item.Item;
@@ -20,6 +24,14 @@ public class ClientProxy extends ProxyBase {
 
 	public void registerItemRenderer(Item item, int meta, String id)
 	{
-		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), id));
+		if (item instanceof IMetaName){
+			ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName() + "_" + meta, id));
+		}else {
+			ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), id));
+		}
+
+		if(item instanceof ItemShieldBase){
+			item.setTileEntityItemStackRenderer(new ModTileEntityItemStackRenderer());}
 	}
+
 }

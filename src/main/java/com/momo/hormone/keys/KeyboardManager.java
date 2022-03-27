@@ -1,6 +1,6 @@
 package com.momo.hormone.keys;
 
-import com.momo.hormone.IdlFramework;
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.proxy.ClientProxy;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
@@ -20,7 +20,7 @@ public class KeyboardManager {
              ClientProxy.KEY_BINDINGS) {
             ClientRegistry.registerKeyBinding(key);
         }
-        IdlFramework.Log("Registered %d keys", ClientProxy.KEY_BINDINGS.size());
+        MoMoFramework.Log("Registered %d keys", ClientProxy.KEY_BINDINGS.size());
     }
 
     @SideOnly(Side.CLIENT)
@@ -36,12 +36,12 @@ public class KeyboardManager {
 //            if(mc.currentScreen != null) return;
 //
 //            EnumHand hand = ClientProxy.CAST_OFFHAND.isKeyDown() ? EnumHand.MAIN_HAND : EnumHand.OFF_HAND;
-//            IdlFramework.Log("pressed key cast :" + hand);
+//            MoMoFramework.Log("pressed key cast :" + hand);
 //
 //            ItemStack item = player.getHeldItem(hand);
 //            if(item.isEmpty())
 //            {
-//                IdlFramework.LogWarning("Trying to cast an empty item");
+//                MoMoFramework.LogWarning("Trying to cast an empty item");
 //            }
 //
 //            if(item.getItem() instanceof ItemSkillBase)

@@ -1,8 +1,8 @@
 package com.momo.hormone.command;
 
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.util.CommonFunctions;
 import com.momo.hormone.util.Teleport;
-import com.momo.hormone.IdlFramework;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
@@ -18,7 +18,7 @@ import java.util.List;
 
 public class CommandDimTeleport extends CommandBase {
 
-    private final List<String> aliases = Lists.newArrayList(IdlFramework.MODID, "tp", "tpdim", "tpdimension", "chuansong");
+    private final List<String> aliases = Lists.newArrayList(MoMoFramework.MODID, "tp", "tpdim", "tpdimension", "chuansong");
 
     @Override
     public String getName() {

@@ -1,7 +1,7 @@
 package com.momo.hormone.events;
 
 
-import com.momo.hormone.IdlFramework;
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.block.state.IBlockState;
@@ -14,7 +14,7 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod.EventBusSubscriber(modid = IdlFramework.MODID)
+@Mod.EventBusSubscriber(modid = MoMoFramework.MODID)
 public class BonemealHormone {
     @SubscribeEvent
     public static void onUse(PlayerInteractEvent.RightClickBlock evt) {

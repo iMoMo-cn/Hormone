@@ -1,7 +1,6 @@
 package com.momo.hormone.blocks.builder;
 
 import com.momo.hormone.blocks.BlockBase;
-import com.momo.hormone.init.ModCreativeTab;
 import com.momo.hormone.blocks.tileEntity.builder.TileEntityBuilderOne;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.SoundType;
@@ -23,7 +22,7 @@ public class BlockBuilderOne extends BlockBase implements ITileEntityProvider {
     }
 
     /**
-     * Returns a new instance of a blockBush's tile entity class. Called on placing the blockBush.
+     * Returns a new instance of a blockBush's tiles entity class. Called on placing the blockBush.
      */
     public TileEntity createNewTileEntity(World worldIn, int meta) {
         TileEntityBuilderOne t = new TileEntityBuilderOne();

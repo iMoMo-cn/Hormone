@@ -1,7 +1,7 @@
 package com.momo.hormone.network.protocols;
 
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.skills.ItemSkillBase;
-import com.momo.hormone.IdlFramework;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
@@ -44,14 +44,14 @@ public class PacketTest implements IMessage {
             EntityPlayerMP player = ctx.getServerHandler().player;
 
             player.getServerWorld().addScheduledTask(() -> {
-                IdlFramework.Log("Packet:%d", msg.testVal);
+                MoMoFramework.Log("Packet:%d", msg.testVal);
 
                 EnumHand hand = EnumHand.values()[msg.testVal];
 
                 ItemStack item = player.getHeldItem(hand);
                 if(item.isEmpty())
                 {
-                    IdlFramework.LogWarning("Trying to cast an empty item");
+                    MoMoFramework.LogWarning("Trying to cast an empty item");
                 }
 
                 if(item.getItem() instanceof ItemSkillBase)

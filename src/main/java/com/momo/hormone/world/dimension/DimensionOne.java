@@ -8,14 +8,14 @@ import net.minecraft.world.gen.IChunkGenerator;
 public class DimensionOne extends WorldProvider {
 
     public DimensionOne() {
-        //this.biomeProvider = new BiomeProviderSingle(InitBiome.BIOME_ONE);
+        //this.biomeProvider = new BiomeProviderSingle(ModBiomeInit.BIOME_ONE);
         hasSkyLight = false;
     }
 
     @Override
     public DimensionType getDimensionType() {
         return DimensionType.NETHER;
-        //return InitDimension.DIM_ONE;
+        //return ModDimensionInit.DIM_ONE;
     }
 
     @Override

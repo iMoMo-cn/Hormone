@@ -20,6 +20,6 @@ public class WorldTypeOne extends WorldType {
 //    @Override
 //    public BiomeProvider getBiomeProvider(World world) {
 //
-//        return new BiomeProviderSingle(InitBiome.BIOME_ONE);
+//        return new BiomeProviderSingle(ModBiomeInit.BIOME_ONE);
 //    }
 }

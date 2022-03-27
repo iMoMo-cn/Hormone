@@ -3,7 +3,7 @@ package com.momo.hormone.item.consumables;
 import com.momo.hormone.item.ItemBase;
 import com.momo.hormone.entity.creatures.EntityModUnit;
 import com.momo.hormone.util.CommonFunctions;
-import com.momo.hormone.util.EntityUtil;
+import com.momo.hormone.util.entityUtil.EntityUtil;
 import com.momo.hormone.util.NBTStrDef.IDLNBTUtil;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;

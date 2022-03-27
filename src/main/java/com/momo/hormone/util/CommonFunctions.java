@@ -1,7 +1,7 @@
 package com.momo.hormone.util;
 
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ItemBase;
-import com.momo.hormone.IdlFramework;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.Entity;
@@ -186,7 +186,7 @@ public class CommonFunctions {
     }
 
     public static void LogPlayerAction(EntityLivingBase living, String action){
-        IdlFramework.Log(String.format("%s(%s): %s",living.getName(), living.getUniqueID(), action));
+        MoMoFramework.Log(String.format("%s(%s): %s",living.getName(), living.getUniqueID(), action));
     }
 
     public static boolean RepairItem(ItemStack stack, int amount)
@@ -261,20 +261,20 @@ public class CommonFunctions {
             {
                 player.experience -= costLeft;
                 costLeft = 0;
-                IdlFramework.Log("A");
+                MoMoFramework.Log("A");
             }
             else {
                 costLeft -= player.experience;
-                IdlFramework.Log("B");
+                MoMoFramework.Log("B");
                 if (player.experienceLevel > 0)
                 {
                     player.experienceLevel--;
                     player.experience = XPForLevel(player.experienceLevel);
-                    IdlFramework.Log(String.format("player.experience = %d", XPForLevel(player.experienceLevel)));
+                    MoMoFramework.Log(String.format("player.experience = %d", XPForLevel(player.experienceLevel)));
                 }
             }
         }
-        IdlFramework.Log(String.format("Lv= %s, xp = %s", player.experienceLevel, player.experience));
+        MoMoFramework.Log(String.format("Lv= %s, xp = %s", player.experienceLevel, player.experience));
         return true;
     }
 

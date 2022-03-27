@@ -25,7 +25,7 @@ public class ModConfig {
     }
 
     @Config.LangKey("configgui.idlframewok.category.Menu0.GeneralConf")
-    @Config.Comment("IdlFramework general config.")
+    @Config.Comment("MoMoFramework general config.")
     public static final GeneralConf GeneralConf = new GeneralConf();
 
     public static class GeneralConf {

@@ -1,6 +1,6 @@
 package com.momo.hormone.util;
 
-import com.momo.hormone.item.IGuaEnhance;
+import com.momo.hormone.item.misc.IGuaEnhance;
 import com.momo.hormone.item.skills.ItemSkillBase;
 import com.momo.hormone.util.NBTStrDef.IDLNBTDef;
 import net.minecraft.client.resources.I18n;

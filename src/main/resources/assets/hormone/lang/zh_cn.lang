@@ -30,4 +30,4 @@ item.hormone_fish.desc=§o适用对象:豹猫、猫、北极熊
 item.hormone_rotten.name=腐化激素
 item.hormone_rotten.desc=§o腐化灵魂，甚至肉体...
 
-entity.Villager.hormone.hormoneMerchant=激素商人
+entity.Villager.hormone.HormoneMerchant=激素商人

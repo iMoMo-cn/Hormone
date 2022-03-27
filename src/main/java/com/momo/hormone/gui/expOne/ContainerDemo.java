@@ -113,7 +113,7 @@ public class ContainerDemo extends Container {
     @Override
     public void onContainerClosed(EntityPlayer playerIn)
     {
-        //if the gui does not connects a tile entity, this must be manually rewritten
+        //if the gui does not connects a tiles entity, this must be manually rewritten
         super.onContainerClosed(playerIn);
 
         if (playerIn.isServerWorld())

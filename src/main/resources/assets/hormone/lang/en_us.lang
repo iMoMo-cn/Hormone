@@ -30,5 +30,6 @@ item.hormone_fish.desc=§oFor ocelots, cats and polor bears
 item.hormone_rotten.name=Rotten Hromone
 item.hormone_rotten.desc=§oCorrupt the soul and even the body...
 
-entity.Villager.hormone.hormoneMerchant=Hormone Merchant
+entity.Villager.hormone.HormoneMerchant=Hormone Merchant
+
 

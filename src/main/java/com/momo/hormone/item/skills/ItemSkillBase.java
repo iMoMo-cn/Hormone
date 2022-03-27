@@ -1,8 +1,7 @@
 package com.momo.hormone.item.skills;
 
-import com.momo.hormone.init.ModCreativeTab;
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ItemBase;
-import com.momo.hormone.IdlFramework;
 import com.momo.hormone.util.CommonFunctions;
 import com.momo.hormone.util.IDLSkillNBT;
 import com.momo.hormone.util.MessageDef;
@@ -249,7 +248,7 @@ public class ItemSkillBase extends ItemBase {
                             CommonFunctions.SafeSendMsgToPlayer(TextFormatting.RED, (EntityPlayer) caster, MessageDef.NOT_CASTABLE_MAINHAND);
                         }
                         else {
-                            IdlFramework.LogWarning("Trying to do invalid cast from a creature: %s", caster.getName());
+                            MoMoFramework.LogWarning("Trying to do invalid cast from a creature: %s", caster.getName());
                         }
                     }
                 } else if (hand == EnumHand.OFF_HAND)
@@ -261,7 +260,7 @@ public class ItemSkillBase extends ItemBase {
                             CommonFunctions.SafeSendMsgToPlayer(TextFormatting.RED, (EntityPlayer) caster, MessageDef.NOT_CASTABLE_OFFHAND);
                         }
                         else {
-                            IdlFramework.LogWarning("Trying to do invalid cast from a creature: %s", caster.getName());
+                            MoMoFramework.LogWarning("Trying to do invalid cast from a creature: %s", caster.getName());
                         }
                     }
             }

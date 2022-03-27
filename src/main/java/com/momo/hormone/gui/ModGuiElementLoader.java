@@ -1,6 +1,6 @@
 package com.momo.hormone.gui;
 
-import com.momo.hormone.IdlFramework;
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.gui.expOne.ContainerDemo;
 import com.momo.hormone.gui.expOne.GuiContainerDemo;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,7 +19,7 @@ public class ModGuiElementLoader implements IGuiHandler {
 
     public ModGuiElementLoader()
     {
-        NetworkRegistry.INSTANCE.registerGuiHandler(IdlFramework.instance, this);
+        NetworkRegistry.INSTANCE.registerGuiHandler(MoMoFramework.instance, this);
     }
 
     @Nullable

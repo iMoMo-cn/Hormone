@@ -1,6 +1,6 @@
 package com.momo.hormone.events.RottenHormone;
 
-import com.momo.hormone.IdlFramework;
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
@@ -18,8 +18,7 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-
-@Mod.EventBusSubscriber(modid = IdlFramework.MODID)
+@Mod.EventBusSubscriber(modid = MoMoFramework.MODID)
 public class RottenMob {
     @SubscribeEvent
     public static void OnUse(PlayerInteractEvent.EntityInteractSpecific evt) {
@@ -31,7 +30,9 @@ public class RottenMob {
 
         if (!world.isRemote) {
             if (target instanceof EntityZombie && itemstack.getItem() == ModItems.HORMONE_ROTTEN) {
-                if (!player.capabilities.isCreativeMode) { itemstack.shrink(1); }
+                if (!player.capabilities.isCreativeMode) {
+                    itemstack.shrink(1);
+                }
 
                 EntitySkeleton entitySkeleton = new EntitySkeleton(target.world);
                 EventBase(target, entitySkeleton);
@@ -39,7 +40,9 @@ public class RottenMob {
             }
 
             if (target instanceof EntitySkeleton && itemstack.getItem() == ModItems.HORMONE_ROTTEN) {
-                if (!player.capabilities.isCreativeMode) { itemstack.shrink(1); }
+                if (!player.capabilities.isCreativeMode) {
+                    itemstack.shrink(1);
+                }
 
                 EntityWitherSkeleton entityWitherSkeleton = new EntityWitherSkeleton(target.world);
                 EventBase(target, entityWitherSkeleton);

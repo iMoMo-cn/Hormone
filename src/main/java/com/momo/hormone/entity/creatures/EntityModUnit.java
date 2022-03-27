@@ -1,8 +1,7 @@
 package com.momo.hormone.entity.creatures;
 
-import com.momo.hormone.blocks.blockMoroon.BlockMoroonBase;
 import com.momo.hormone.util.CommonDef;
-import com.momo.hormone.util.EntityUtil;
+import com.momo.hormone.util.entityUtil.EntityUtil;
 import com.momo.hormone.util.NBTStrDef.IDLNBTDef;
 import com.google.common.base.Predicate;
 import net.minecraft.block.material.EnumPushReaction;
@@ -37,16 +36,11 @@ public class EntityModUnit extends EntityCreature {
 
     public boolean is_pinned_on_ground = false;
     public boolean is_mechanic = false;
-    public boolean is_god = false;
+
     public boolean is_building = false;
     public boolean is_cubix = false;
 
     public boolean spawn_without_darkness = false;
-    public boolean spawn_without_moroon_ground = false;
-
-    public boolean isMoroon = false;
-    public boolean isIdealland = false;
-    protected boolean applyLevelBoost = false;
 
     public boolean dontDespawn = false;
 
@@ -351,8 +345,7 @@ public class EntityModUnit extends EntityCreature {
 
         return iblockstate.canEntitySpawn(this)
                 && this.getBlockPathWeight(new BlockPos(this.posX, this.getEntityBoundingBox().minY, this.posZ)) >= 0.0F
-                && (spawn_without_darkness || isValidLightLevel())
-                && (spawn_without_moroon_ground || iblockstate.getBlock() instanceof BlockMoroonBase);
+                && (spawn_without_darkness || isValidLightLevel());
     }
 
     /**

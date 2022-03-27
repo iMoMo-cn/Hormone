@@ -1,6 +1,6 @@
 package com.momo.hormone.network;
 
-import com.momo.hormone.IdlFramework;
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.network.protocols.PacketTest;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
@@ -9,9 +9,9 @@ import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
 
 public class NetworkHandler {
-    public static final ResourceLocation MSG_RESOURCE = new ResourceLocation(IdlFramework.MODID, "msg");
+    public static final ResourceLocation MSG_RESOURCE = new ResourceLocation(MoMoFramework.MODID, "msg");
 
-    public static final SimpleNetworkWrapper channel = NetworkRegistry.INSTANCE.newSimpleChannel(IdlFramework.MODID);
+    public static final SimpleNetworkWrapper channel = NetworkRegistry.INSTANCE.newSimpleChannel(MoMoFramework.MODID);
 
     static int id = 0;
     public static void init()

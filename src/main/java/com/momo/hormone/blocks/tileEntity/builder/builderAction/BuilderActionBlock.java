@@ -1,6 +1,6 @@
 package com.momo.hormone.blocks.tileEntity.builder.builderAction;
 
-import com.momo.hormone.IdlFramework;
+import com.momo.hormone.MoMoFramework;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
@@ -44,7 +44,7 @@ public class BuilderActionBlock extends BuilderActionBase {
     @Override
     public boolean Execute(World world, BlockPos ori_pos){
         if (relativePos.lengthSquared() < 1) {
-            IdlFramework.LogWarning("Trying to build a blockBush at self-pos.");
+            MoMoFramework.LogWarning("Trying to build a blockBush at self-pos.");
             return true;
         }
 

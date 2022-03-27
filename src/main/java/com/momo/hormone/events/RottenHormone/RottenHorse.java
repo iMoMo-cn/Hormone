@@ -1,6 +1,6 @@
 package com.momo.hormone.events.RottenHormone;
 
-import com.momo.hormone.IdlFramework;
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityAgeable;
@@ -17,7 +17,7 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod.EventBusSubscriber(modid = IdlFramework.MODID)
+@Mod.EventBusSubscriber(modid = MoMoFramework.MODID)
 public class RottenHorse {
     @SubscribeEvent
     public static void OnUse(PlayerInteractEvent.EntityInteractSpecific evt) {

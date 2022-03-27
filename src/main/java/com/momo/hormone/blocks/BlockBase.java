@@ -1,8 +1,8 @@
 package com.momo.hormone.blocks;
 
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;
 import com.momo.hormone.util.IHasModel;
-import com.momo.hormone.IdlFramework;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -24,9 +24,6 @@ public class BlockBase extends Block implements IHasModel
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 
 		setHardness(5.0F);
-		//setResistance(1000.0F);
-		//setHarvestLevel("pickaxe", 1);
-		//setLightLevel(1f);
 		setLightOpacity(1);
 	}
 
@@ -43,6 +40,6 @@ public class BlockBase extends Block implements IHasModel
 	
 	@Override
 	public void registerModels() {
-		IdlFramework.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+		MoMoFramework.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
 	}
 }

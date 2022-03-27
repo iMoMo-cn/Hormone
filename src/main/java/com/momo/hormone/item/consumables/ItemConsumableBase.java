@@ -1,6 +1,5 @@
 package com.momo.hormone.item.consumables;
 
-import com.momo.hormone.init.ModCreativeTab;
 import com.momo.hormone.item.ItemBase;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;

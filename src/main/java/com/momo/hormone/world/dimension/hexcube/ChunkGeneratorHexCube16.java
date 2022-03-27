@@ -262,7 +262,7 @@ public class ChunkGeneratorHexCube16 implements IChunkGenerator {
         for (int i = 0; i < abyte.length; ++i)
         {
             abyte[i] = (byte)Biome.getIdForBiome(Biomes.EXTREME_HILLS);
-            //abyte[i] = (byte)Biome.getIdForBiome(InitBiome.BIOME_ONE);
+            //abyte[i] = (byte)Biome.getIdForBiome(ModBiomeInit.BIOME_ONE);
         }
 
         chunk.resetRelightChecks();

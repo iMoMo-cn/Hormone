@@ -1,17 +1,13 @@
 package com.momo.hormone.item;
 
-import com.momo.hormone.IdlFramework;
-import com.momo.hormone.init.ModCreativeTab;
+import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.util.CommonFunctions;
-import com.momo.hormone.util.IDLSkillNBT;
 import com.momo.hormone.util.IHasModel;
 
 import com.momo.hormone.util.NBTStrDef.IDLNBTDef;
 import com.momo.hormone.util.NBTStrDef.IDLNBTUtil;
-import javafx.scene.control.Tab;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;
@@ -33,7 +29,6 @@ import static com.momo.hormone.util.IDLSkillNBT.GetGuaEnhance;
 public class ItemBase extends Item implements IHasModel {
 	private boolean overrideRarity = false;
 	private EnumRarity enumRarity = EnumRarity.COMMON;
-	protected boolean showGuaSocketDesc = false;
 	protected boolean shiftToShowDesc = false;
 	protected boolean use_flavor = false;
 	protected boolean useable = false;
@@ -55,7 +50,6 @@ public class ItemBase extends Item implements IHasModel {
 		setRegistryName(name);
 		ModItems.ITEMS.add(this);
 
-		InitItem();
 	}
 
 	protected ItemBase setGlitter()
@@ -94,13 +88,6 @@ public class ItemBase extends Item implements IHasModel {
 		}
 	}
 
-	public void InitItem()
-	{
-		if (this instanceof IGuaEnhance)
-		{
-			showGuaSocketDesc = true;
-		}
-	}
 
 	public boolean isRangedWeaponItem()
 	{
@@ -121,7 +108,7 @@ public class ItemBase extends Item implements IHasModel {
 	public void onUsingTick(ItemStack stack, EntityLivingBase living, int count) {
 		//Particle;
 		super.onUsingTick(stack, living, count);
-		//IdlFramework.LogWarning(String.format("base onUsingTick %s",count));
+		//MoMoFramework.LogWarning(String.format("base onUsingTick %s",count));
 
 		if (living.world.isRemote)
 		{
@@ -172,16 +159,13 @@ public class ItemBase extends Item implements IHasModel {
 	@Override
 	public void registerModels() 
 	{
-		IdlFramework.proxy.registerItemRenderer(this, 0, "inventory");
+		MoMoFramework.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void addInformation(ItemStack stack, World world, List<String> tooltip, ITooltipFlag flag) {
-
-		IDLSkillNBT.addInformation(stack,world,tooltip,flag,shiftToShowDesc, showGuaSocketDesc, use_flavor,
-				getMainDesc(stack,world,tooltip,flag));
 
 		if (logNBT)
 		{

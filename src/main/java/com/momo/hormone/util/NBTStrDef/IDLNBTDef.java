@@ -1,8 +1,11 @@
 package com.momo.hormone.util.NBTStrDef;
 
-import com.momo.hormone.IdlFramework;
+import com.momo.hormone.MoMoFramework;
 
 public class IDLNBTDef {
+	//Name Inventory
+	public static final String NAME_INVENTORY = "inventory";
+
 	//GENERAL:
 	public static final String IDEALLAND = "idealland_nbt";
 
@@ -78,7 +81,7 @@ public class IDLNBTDef {
 
 	public static final String MODE = "mode";
 
-	public static final String STARTER_KIT_VERSION_TAG = "last_starter_kit_" + IdlFramework.MODID;
+	public static final String STARTER_KIT_VERSION_TAG = "last_starter_kit_" + MoMoFramework.MODID;
     public static final int CUR_STARTER_KIT_VERSION = 2;
 
 	//edict
