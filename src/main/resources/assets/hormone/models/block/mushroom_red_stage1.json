@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "hormone:blocks/mushroom_red_stage_1"
+  }
+}

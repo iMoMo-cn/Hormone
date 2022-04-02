@@ -6,6 +6,7 @@ import com.momo.hormone.keys.KeyboardManager;
 import com.momo.hormone.network.NetworkHandler;
 import com.momo.hormone.proxy.ProxyBase;
 import com.momo.hormone.recipe.ModRecipe;
+import com.momo.hormone.util.OreDict;
 import com.momo.hormone.util.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -58,7 +59,8 @@ public class MoMoFramework {
     @EventHandler
     public static void Init(FMLInitializationEvent event) {
 
-        ModRecipe.Init();
+        ModRecipe.init();
+        OreDict.init();
 
         RegistryHandler.initRegistries(event);
 

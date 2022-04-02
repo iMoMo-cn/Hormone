@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+  "cross": "hormone:blocks/wild_wheat"
+  }
+}

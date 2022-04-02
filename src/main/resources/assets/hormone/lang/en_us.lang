@@ -14,6 +14,21 @@ item.biscuit_bone.name=Bone Biscuit
 item.biscuit_fish.name=Fish Biscuit
 item.biscuit_rotten.name=Rotten Biscuit
 
+item.pumpkin_slice.name=Pumpkin
+
+item.baked_apple.name=Baked Apple
+item.baked_carrot.name=Baked Carrot
+item.baked_beetroot.name=Baked Beetroot
+item.cooked_egg.name=Cooked Egg
+
+item.coal_apple.name=Carbonized Apple
+item.coal_carrot.name=Carbonized Carrot
+item.coal_potato.name=Carbonized Potato
+item.coal_beetroot.name=Carbonized Beetroot
+item.coal_pumpkin.name=Carbonized Pumpkin
+item.coal_melon.name=Carbonized Melon
+item.coal_wheat.name=Carbonized Wheat
+
 item.hormone_empty.name=Empty Hormone Bag
 item.hormone_bonemeal.name=Growth Hromone(Bonemeal)
 item.hormone_bonemeal.desc=§oFor plants
@@ -29,6 +44,14 @@ item.hormone_fish.name=Growth Hromone(Fish)
 item.hormone_fish.desc=§oFor ocelots, cats and polor bears
 item.hormone_rotten.name=Rotten Hromone
 item.hormone_rotten.desc=§oCorrupt the soul and even the body...
+
+tile.wild_wheat.name=Wild Wheat
+tile.wild_carrot.name=Wild Carrot
+tile.wild_potato.name=Wild Potato
+tile.wild_beet.name=Wild Beetroot
+
+tile.mushroom_red.name=Red Mushroom
+tile.mushroom_brown.name=Brown Mushroom
 
 entity.Villager.hormone.HormoneMerchant=Hormone Merchant
 

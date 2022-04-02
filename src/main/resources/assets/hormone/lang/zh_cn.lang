@@ -14,6 +14,21 @@ item.biscuit_bone.name=骨饼干
 item.biscuit_fish.name=鱼饼干
 item.biscuit_rotten.name=腐化饼干
 
+item.pumpkin_slice.name=南瓜
+
+item.baked_apple.name=烤苹果
+item.baked_carrot.name=烤胡萝卜
+item.baked_beetroot.name=烤甜菜根
+item.cooked_egg.name=熟鸡蛋
+
+item.coal_apple.name=碳化苹果
+item.coal_carrot.name=碳化胡萝卜
+item.coal_potato.name=碳化土豆
+item.coal_beetroot.name=碳化甜菜根
+item.coal_pumpkin.name=碳化南瓜
+item.coal_melon.name=碳化西瓜
+item.coal_wheat.name=碳化小麦
+
 item.hormone_empty.name=空激素袋
 item.hormone_bonemeal.name=生长激素（骨粉制）
 item.hormone_bonemeal.desc=§o适用对象:植物
@@ -29,5 +44,13 @@ item.hormone_fish.name=生长激素（鱼肉制）
 item.hormone_fish.desc=§o适用对象:豹猫、猫、北极熊
 item.hormone_rotten.name=腐化激素
 item.hormone_rotten.desc=§o腐化灵魂，甚至肉体...
+
+tile.wild_wheat.name=野生小麦
+tile.wild_carrot.name=野生胡萝卜
+tile.wild_potato.name=野生土豆
+tile.wild_beet.name=野生甜菜
+
+tile.mushroom_red.name=红蘑菇
+tile.mushroom_brown.name=棕蘑菇
 
 entity.Villager.hormone.HormoneMerchant=激素商人

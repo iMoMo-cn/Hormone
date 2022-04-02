@@ -14,6 +14,8 @@ import com.momo.hormone.potion.effect.ModPotions;
 import com.momo.hormone.potion.item.ModPotionTypes;
 import com.momo.hormone.util.IHasModel;
 import com.momo.hormone.util.sound.ModSoundHandler;
+import com.momo.hormone.worldgen.ModWorldGenOld;
+import com.momo.hormone.worldgen.WildPlantGen;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
@@ -26,6 +28,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.registry.VillagerRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -94,8 +97,9 @@ public class RegistryHandler {
 
 	public static void preInitRegistries(FMLPreInitializationEvent event)
 	{
-		//GameRegistry.registerWorldGenerator(new ModWorldGenOld(), 100);
-		//GameRegistry.registerWorldGenerator(new ModWorldGenNew(), 120);
+		//GameRegistry.registerWorldGenerator(new ModWorldGenOld(), 0);
+		//GameRegistry.registerWorldGenerator(new ModWorldGenNew(), 0);
+		GameRegistry.registerWorldGenerator(new WildPlantGen(), 0);
 
 		ModBiomeInit.registerBiomes();
 		ModDimensionInit.registerDimensions();
