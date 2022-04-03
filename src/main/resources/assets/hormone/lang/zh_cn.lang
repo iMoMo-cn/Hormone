@@ -23,7 +23,7 @@ item.cooked_egg.name=熟鸡蛋
 
 item.coal_apple.name=碳化苹果
 item.coal_carrot.name=碳化胡萝卜
-item.coal_potato.name=碳化土豆
+item.coal_potato.name=碳化马铃薯
 item.coal_beetroot.name=碳化甜菜根
 item.coal_pumpkin.name=碳化南瓜
 item.coal_melon.name=碳化西瓜
@@ -47,7 +47,7 @@ item.hormone_rotten.desc=§o腐化灵魂，甚至肉体...
 
 tile.wild_wheat.name=野生小麦
 tile.wild_carrot.name=野生胡萝卜
-tile.wild_potato.name=野生土豆
+tile.wild_potato.name=野生马铃薯
 tile.wild_beet.name=野生甜菜
 
 tile.mushroom_red.name=红蘑菇

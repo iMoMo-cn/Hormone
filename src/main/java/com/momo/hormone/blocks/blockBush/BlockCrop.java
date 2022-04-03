@@ -12,6 +12,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
@@ -79,6 +80,13 @@ public class BlockCrop extends BlockCrops implements IHasModel {
         }
     }
 
+    @Deprecated // Forge: Use more sensitive version below: getPickBlock
+    public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
+    {
+        if(this == ModBlocks.MUSHROOM_RED) return new ItemStack(Item.getItemFromBlock(Blocks.RED_MUSHROOM), 1);
+        else if(this == ModBlocks.MUSHROOM_BROWN) return new ItemStack(Item.getItemFromBlock(Blocks.BROWN_MUSHROOM), 1);
+        else return null;
+    }
 
 
     protected int getBonemealAgeIncrease(World worldIn)

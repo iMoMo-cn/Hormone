@@ -17,7 +17,7 @@ endProcessing "com/momo/hormone/blocks/ModBlocks.java"
 startProcessing "com/momo/hormone/blocks/blockBasic/BlockBurnable.java" md5: 50a636ade79d0a205c93e0a963c68d27
 endProcessing "com/momo/hormone/blocks/blockBasic/BlockBurnable.java"
 
-startProcessing "com/momo/hormone/blocks/blockBush/BlockCrop.java" md5: 1b8a5346bff5ed72b35151b9bd4c5bc3
+startProcessing "com/momo/hormone/blocks/blockBush/BlockCrop.java" md5: 58ff6ac58a4e42991ed77b5f9db69b5f
 endProcessing "com/momo/hormone/blocks/blockBush/BlockCrop.java"
 
 startProcessing "com/momo/hormone/blocks/blockBush/BlockPlant.java" md5: 436ab1d13db4c4b24a2f68f5d0931de8
