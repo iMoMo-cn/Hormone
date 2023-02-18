@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "hormone:blocks/basket_side",
+    "down": "hormone:blocks/basket_bottom",
+    "up": "hormone:blocks/potato",
+    "north": "hormone:blocks/basket_side",
+    "east": "hormone:blocks/basket_side",
+    "south": "hormone:blocks/basket_side",
+    "west": "hormone:blocks/basket_side"
+  }
+}

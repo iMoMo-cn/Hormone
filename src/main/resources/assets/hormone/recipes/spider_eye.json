@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "hormone:pig_eye"
+    },
+    {
+      "item": "hormone:paste_rotten"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spider_eye"
+  }
+}

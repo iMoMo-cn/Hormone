@@ -13,16 +13,6 @@ import java.util.List;
 public class ModBlocks {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 
-//	public static final Block BEEFROOT_BEETROOT = new BlockPlant("beefroot_beetroot", Material.PLANTS);
-	
-	/*
-	 * To add a blockBush, put a line here,
-	 * -Create a json at assets.eo.blockstates
-	 * -Create a json at assets.eo.models.blockBush
-	 * -Create a json at assets.eo.models.item
-	 * -Add corresponding texture png
-	 */
-
 	public static final Block WILD_WHEAT = new BlockPlant("wild_wheat", Material.GRASS);
 	public static final Block WILD_CARROT = new BlockPlant("wild_carrot", Material.GRASS);
 	public static final Block WILD_POTATO = new BlockPlant("wild_potato", Material.GRASS);
@@ -30,4 +20,11 @@ public class ModBlocks {
 
 	public static final Block MUSHROOM_RED = new BlockCrop("mushroom_red");
 	public static final Block MUSHROOM_BROWN = new BlockCrop("mushroom_brown");
+
+
+	public static final Block APPLE_BASKET = new BlockBase("apple_basket", Material.WOOD).setHardness(0.5F);
+	public static final Block POTATO_BASKET = new BlockBase("potato_basket", Material.WOOD).setHardness(0.5F);
+	public static final Block CARROT_BASKET = new BlockBase("carrot_basket", Material.WOOD).setHardness(0.5F);
+	public static final Block BEETROOT_BASKET = new BlockBase("beetroot_basket", Material.WOOD).setHardness(0.5F);
+
 }

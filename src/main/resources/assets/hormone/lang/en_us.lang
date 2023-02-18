@@ -45,10 +45,21 @@ item.hormone_fish.desc=§oFor ocelots, cats and polor bears
 item.hormone_rotten.name=Rotten Hromone
 item.hormone_rotten.desc=§oCorrupt the soul and even the body...
 
+item.pig_eye.name=Pig Eye
+item.pasteball.name=Paste Ball
+item.black_powder.name=Black Powder
+item.pearl.name=Pearl
+item.fibre.name=Fibre
+
 tile.wild_wheat.name=Wild Wheat
 tile.wild_carrot.name=Wild Carrot
 tile.wild_potato.name=Wild Potato
 tile.wild_beet.name=Wild Beetroot
+
+tile.apple_basket.name=A Basket Of Apple
+tile.potato_basket.name=A Basket Of Potato
+tile.carrot_basket.name=A Basket Of Carrot
+tile.beetroot_basket.name=A Basket Of BeetRoot
 
 tile.mushroom_red.name=Red Mushroom
 tile.mushroom_brown.name=Brown Mushroom

@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Random;
 
 @Mod.EventBusSubscriber(modid = MoMoFramework.MODID)
-public class PumpkinDrop {
+public class PlantsDrop {
     @SubscribeEvent
     public static void PumpkinDestroy(BlockEvent.HarvestDropsEvent evt){
         Block blockdrop = evt.getState().getBlock();
@@ -25,6 +25,21 @@ public class PumpkinDrop {
 
             int num = r.nextInt(5) + 3;
             drops.add(new ItemStack(ModItems.PUMPKIN_SLICE, num));
+        }
+    }
+
+    @SubscribeEvent
+    public static void TallGrassDestroy(BlockEvent.HarvestDropsEvent evt){
+        Block blockdrop = evt.getState().getBlock();
+        List<ItemStack> drops;
+        Random r = new Random();
+        if(blockdrop == Blocks.TALLGRASS){
+            drops = evt.getDrops();
+
+            if(r.nextFloat() < 0.8 )
+            {
+                drops.add(new ItemStack(ModItems.FIBRE, 1));
+            }
         }
     }
 }

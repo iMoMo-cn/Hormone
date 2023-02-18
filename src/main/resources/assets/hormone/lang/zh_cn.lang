@@ -45,10 +45,21 @@ item.hormone_fish.desc=§o适用对象:豹猫、猫、北极熊
 item.hormone_rotten.name=腐化激素
 item.hormone_rotten.desc=§o腐化灵魂，甚至肉体...
 
+item.pig_eye.name=猪眼
+item.pasteball.name=浆糊
+item.black_powder.name=黑火药
+item.pearl.name=珍珠
+item.fibre.name=植物纤维
+
 tile.wild_wheat.name=野生小麦
 tile.wild_carrot.name=野生胡萝卜
 tile.wild_potato.name=野生马铃薯
 tile.wild_beet.name=野生甜菜
+
+tile.apple_basket.name=一筐苹果
+tile.potato_basket.name=一筐马铃薯
+tile.carrot_basket.name=一筐胡萝卜
+tile.beetroot_basket.name=一筐甜菜根
 
 tile.mushroom_red.name=红蘑菇
 tile.mushroom_brown.name=棕蘑菇

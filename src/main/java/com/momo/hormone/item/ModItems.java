@@ -37,6 +37,11 @@ public class ModItems {
 	public static final Item HORMONE_FISH = new ItemBase("hormone_fish").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_ROTTEN = new ItemBase("hormone_rotten").setCreativeTab(ModCreativeTab.HORMONE);
 
+	public static final Item FIBRE = new ItemBase("fibre").setCreativeTab(ModCreativeTab.HORMONE);
+	public static final Item PIG_EYE = new ItemFoodBase("pig_eye", 2, 3.2F, false).setCreativeTab(ModCreativeTab.HORMONE);
+	public static final Item PASTEBALL = new ItemBase("pasteball").setCreativeTab(ModCreativeTab.HORMONE);
+	public static final Item BLACK_POWDER = new ItemBase("black_powder").setCreativeTab(ModCreativeTab.HORMONE);
+
 	public static final Item PUMPKIN_SLICE = new ItemFoodBase("pumpkin_slice", 2, 1.2F, false).setCreativeTab(ModCreativeTab.HORMONE);
 
 	public static final Item BAKED_APPLE = new ItemFoodBase("baked_apple", 6, 7.2F, false).setCreativeTab(ModCreativeTab.HORMONE);
@@ -51,4 +56,5 @@ public class ModItems {
 	public static final Item COAL_PUMPKIN = new ItemBurnable("coal_pumpkin", 1200).setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item COAL_MELON = new ItemBurnable("coal_melon", 1200).setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item COAL_WHEAT = new ItemBurnable("coal_wheat", 1200).setCreativeTab(ModCreativeTab.HORMONE);
+
 }

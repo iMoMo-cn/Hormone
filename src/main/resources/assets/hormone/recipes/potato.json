@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "hormone:potato_basket"
+    }
+  ],
+  "result": {
+    "item": "minecraft:potato",
+    "count": 9
+  }
+}

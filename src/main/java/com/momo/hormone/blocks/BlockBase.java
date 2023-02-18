@@ -1,10 +1,12 @@
 package com.momo.hormone.blocks;
 
 import com.momo.hormone.MoMoFramework;
+import com.momo.hormone.init.ModCreativeTab;
 import com.momo.hormone.item.ModItems;
 import com.momo.hormone.util.IHasModel;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
@@ -19,12 +21,13 @@ public class BlockBase extends Block implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		
+
+		setSoundType(SoundType.WOOD);
+		setCreativeTab(ModCreativeTab.HORMONE);
+
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 
-		setHardness(5.0F);
-		setLightOpacity(1);
 	}
 
 	@Override

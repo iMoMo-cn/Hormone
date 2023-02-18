@@ -1,0 +1,14 @@
+{
+  "type": "forge:ore_shaped",
+  "result": { "item": "minecraft:blaze_powder", "count" : 8},
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": { "type": "forge:ore_dict", "ore": "gunpowder" },
+    "X": { "item": "minecraft:lava_bucket" }
+  }
+
+}
