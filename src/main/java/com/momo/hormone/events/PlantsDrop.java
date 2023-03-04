@@ -36,7 +36,7 @@ public class PlantsDrop {
         if(blockdrop == Blocks.TALLGRASS){
             drops = evt.getDrops();
 
-            if(r.nextFloat() < 0.8 )
+            if(r.nextFloat() < 0.3 )
             {
                 drops.add(new ItemStack(ModItems.FIBRE, 1));
             }

@@ -2,6 +2,7 @@ package com.momo.hormone.item;
 
 import com.momo.hormone.init.ModCreativeTab;
 import com.momo.hormone.item.food.ItemFoodBase;
+import com.momo.hormone.item.misc.ItemFibre;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.*;
 import net.minecraft.potion.PotionEffect;
@@ -37,7 +38,7 @@ public class ModItems {
 	public static final Item HORMONE_FISH = new ItemBase("hormone_fish").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_ROTTEN = new ItemBase("hormone_rotten").setCreativeTab(ModCreativeTab.HORMONE);
 
-	public static final Item FIBRE = new ItemBase("fibre").setCreativeTab(ModCreativeTab.HORMONE);
+	public static final Item FIBRE = new ItemFibre("fibre").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item PIG_EYE = new ItemFoodBase("pig_eye", 2, 3.2F, false).setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item PASTEBALL = new ItemBase("pasteball").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item BLACK_POWDER = new ItemBase("black_powder").setCreativeTab(ModCreativeTab.HORMONE);

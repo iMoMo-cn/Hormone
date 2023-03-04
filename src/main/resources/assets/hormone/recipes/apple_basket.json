@@ -1,17 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
+  "result": { "item": "hormone:apple_basket", "count" : 1},
   "pattern": [
-    "AAA",
-    "AAA",
-    "AAA"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:apple"
-    }
-  },
-    "result": {
-      "item": "hormone:apple_basket",
-      "count": 1
-    }
+    "#": { "type": "forge:ore_dict", "ore": "cropApple" }
+  }
 }

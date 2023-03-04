@@ -1,0 +1,14 @@
+{
+  "type": "forge:ore_shaped",
+  "result": { "item": "minecraft:blaze_rod", "count" : 3},
+  "pattern": [
+    "#X#",
+    "#X#",
+    "#X#"
+  ],
+  "key": {
+    "X": { "type": "forge:ore_dict", "ore": "stickWood" },
+    "#": { "item": "minecraft:blaze_powder" }
+  }
+
+}
