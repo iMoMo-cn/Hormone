@@ -1,8 +1,6 @@
 package com.momo.hormone.gui;
 
 import com.momo.hormone.MoMoFramework;
-import com.momo.hormone.gui.expOne.ContainerDemo;
-import com.momo.hormone.gui.expOne.GuiContainerDemo;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.IGuiHandler;
@@ -27,8 +25,6 @@ public class ModGuiElementLoader implements IGuiHandler {
     public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
         switch (ID)
         {
-            case GUI_DEMO:
-                return new ContainerDemo(player);
             default:
                 return null;
         }
@@ -39,8 +35,6 @@ public class ModGuiElementLoader implements IGuiHandler {
     public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
         switch (ID)
         {
-            case GUI_DEMO:
-                return new GuiContainerDemo(new ContainerDemo(player));
             default:
                 return null;
         }

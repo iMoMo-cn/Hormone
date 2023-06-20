@@ -1,6 +1,6 @@
 package com.momo.hormone.blocks.blockDecoration;
 
-import com.momo.hormone.blocks.BlockBase;
+import com.momo.hormone.blocks.blockBasic.BlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;

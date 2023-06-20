@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropWheat"
+    },
+    {
+      "item": "hormone:water_cup"
+    }
+  ],
+  "result": {
+    "item": "hormone:beer",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    { "item": "hormone:knife" },
+    { "type": "forge:ore_dict", "ore": "listAllmeatraw" }
+  ],
+  "result": {
+    "item": "hormone:diced_meat",
+    "count": 3
+  }
+}

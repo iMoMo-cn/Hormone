@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "hormone:diced_meat"
+    },
+    {
+      "item": "hormone:diced_meat"
+    },
+    {
+      "item": "hormone:diced_meat"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  ],
+  "result": {
+    "item": "hormone:meat_skewers",
+    "count": 1
+  }
+}

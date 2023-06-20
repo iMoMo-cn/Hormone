@@ -9,7 +9,7 @@ import net.minecraftforge.common.BiomeManager.BiomeEntry;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class ModBiomeInit {
-    //public  static  final Biome BIOME_ONE = new BiomeOne();
+
     public static void registerBiomes()
     {
         //initBiome(BIOME_ONE, "biome_one", BiomeManager.BiomeType.WARM, Type.HILLS, Type.DENSE);

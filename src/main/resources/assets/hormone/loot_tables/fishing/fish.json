@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "pearl",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "hormone:pearl",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

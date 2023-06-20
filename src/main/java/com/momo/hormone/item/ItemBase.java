@@ -2,6 +2,7 @@ package com.momo.hormone.item;
 
 import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.util.CommonFunctions;
+import com.momo.hormone.util.IDLSkillNBT;
 import com.momo.hormone.util.IHasModel;
 
 import com.momo.hormone.util.NBTStrDef.IDLNBTDef;
@@ -23,8 +24,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import javax.annotation.Nonnull;
 import java.util.List;
 import java.util.UUID;
-
-import static com.momo.hormone.util.IDLSkillNBT.GetGuaEnhance;
 
 public class ItemBase extends Item implements IHasModel {
 	private boolean overrideRarity = false;
@@ -166,6 +165,8 @@ public class ItemBase extends Item implements IHasModel {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void addInformation(ItemStack stack, World world, List<String> tooltip, ITooltipFlag flag) {
+
+		IDLSkillNBT.addInformation(stack, world, tooltip, flag, shiftToShowDesc, use_flavor, getMainDesc(stack, world, tooltip, flag));
 
 		if (logNBT)
 		{

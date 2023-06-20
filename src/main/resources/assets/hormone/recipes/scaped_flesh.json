@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "hormone:knife"
+    }
+  ],
+  "result": {
+    "item": "hormone:scraped_flesh",
+    "count": 1
+  }
+}

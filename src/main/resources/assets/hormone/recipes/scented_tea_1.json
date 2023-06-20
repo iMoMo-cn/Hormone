@@ -1,0 +1,11 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    { "item": "hormone:water_cup" },
+    { "item": "minecraft:yellow_flower", "data": 0 }
+  ],
+  "result": {
+    "item": "hormone:scented_tea",
+    "count": 1
+  }
+}

@@ -44,15 +44,6 @@ public class KeyboardManager {
 //                MoMoFramework.LogWarning("Trying to cast an empty item");
 //            }
 //
-//            if(item.getItem() instanceof ItemSkillBase)
-//            {
-//                ItemSkillBase skill = (ItemSkillBase) item.getItem();
-//                if (skill.canCast(player.world, player, hand))
-//                {
-//                    NetworkHandler.SendToServer(new PacketTest(hand.ordinal()));
-//                }
-//
-//            }
 //
 //            //mc.playerController.updateController();
 //            //                    NetworkManager.channel.sendToServer(new C2SSpecialAction((byte) 1));

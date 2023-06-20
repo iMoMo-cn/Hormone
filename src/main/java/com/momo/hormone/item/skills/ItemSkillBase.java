@@ -39,7 +39,6 @@ enum SKILL_MSG_TYPE
 
 
 public class ItemSkillBase extends ItemBase {
-    public boolean isMartial = false;
 
     public float cool_down = 1f;
     public float cool_down_reduce_per_lv = 0.2f;
@@ -53,11 +52,8 @@ public class ItemSkillBase extends ItemBase {
     public float dura_val = 0f;
     public float dura_per_level = 0f;
 
-    public float level_modifier = 0f;
 
     public int maxLevel = 5;
-
-    public int gua_index = G_SKY;
 
     public boolean showCDDesc = true;
     public boolean showDamageDesc = true;

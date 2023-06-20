@@ -35,8 +35,6 @@ public class ModRecipe {
 		//remove recipe
 		removeRecipes(registry);
 
-		//Example
-		//r.register(new BasicGua8().setRegistryName(new ResourceLocation(Reference.MOD_ID, "basic_gua8")));
 
 	}
 	private static void removeRecipes(IForgeRegistryModifiable<IRecipe> registry){

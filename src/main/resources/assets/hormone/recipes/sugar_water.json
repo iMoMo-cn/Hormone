@@ -1,0 +1,11 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    { "item": "hormone:water_cup" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": {
+    "item": "hormone:sugar_water",
+    "count": 1
+  }
+}

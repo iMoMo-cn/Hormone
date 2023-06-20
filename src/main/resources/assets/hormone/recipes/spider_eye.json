@@ -6,7 +6,10 @@
       "item": "hormone:pig_eye"
     },
     {
-      "item": "hormone:paste_rotten"
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:red_mushroom"
     }
   ],
   "result": {

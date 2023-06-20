@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "hormone:pumpkin_slice"
+    },
+    {
+      "item": "hormone:pumpkin_slice"
+    },
+    {
+      "item": "hormone:pumpkin_slice"
+    },
+    {
+      "item": "hormone:toffee"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "hormone:pumpkin_stew",
+    "count": 1
+  }
+}

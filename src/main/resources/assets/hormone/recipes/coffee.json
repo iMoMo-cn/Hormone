@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+    {
+      "item": "hormone:water_cup"
+    }
+  ],
+  "result": {
+    "item": "hormone:coffee",
+    "count": 1
+  }
+}

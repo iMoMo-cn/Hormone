@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "hormone:salad"
+    },
+    {
+      "item": "hormone:cooked_diced_meat"
+    }
+  ],
+  "result": {
+    "item": "hormone:meat_salad",
+    "count": 1
+  }
+}

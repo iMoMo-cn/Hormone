@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    {
+      "item": "minecraft:red_flower",
+      "data": 32767
+    }
+  ],
+  "result": {
+    "item": "hormone:paste_flower",
+    "count": 2
+  }
+}

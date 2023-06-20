@@ -1,0 +1,11 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    { "item": "hormone:knife" },
+    { "type": "forge:ore_dict", "ore": "cropCarrot" }
+  ],
+  "result": {
+    "item": "hormone:diced_vegetable",
+    "count": 3
+  }
+}

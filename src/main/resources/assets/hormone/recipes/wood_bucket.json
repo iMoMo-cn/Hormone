@@ -1,0 +1,15 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": { "type": "forge:ore_dict", "ore": "plankWood" },
+    "B": { "item": "hormone:fibre" }
+  },
+  "result": {
+    "item": "hormone:wood_bucket",
+    "count" : 1
+  }
+}

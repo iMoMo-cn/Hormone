@@ -1,0 +1,15 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "A ",
+    "BA"
+  ],
+  "key": {
+    "A": { "type": "forge:ore_dict", "ore": "ingotIron" },
+    "B": { "item": "hormone:fibre" }
+  },
+  "result": {
+    "item": "hormone:shears",
+    "count" : 1
+  }
+}

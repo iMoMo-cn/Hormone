@@ -1,5 +1,5 @@
 {
-  "parent": "block/crop",
+  "parent": "hormone:block/cross_crop",
   "textures": {
     "crop": "hormone:blocks/mushroom_red_stage_3"
   }

@@ -1,0 +1,11 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    { "type": "forge:ore_dict", "ore": "pumpkin" },
+    { "item": "hormone:knife" }
+  ],
+  "result": {
+    "item": "hormone:pumpkin_slice",
+    "count": 9
+  }
+}

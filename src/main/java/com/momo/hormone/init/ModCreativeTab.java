@@ -18,8 +18,25 @@ public class ModCreativeTab {
         @SideOnly(Side.CLIENT)
         public ItemStack getTabIconItem()
         {
-            return new ItemStack(ModItems.HORMONE_EMPTY);
+            return new ItemStack(ModItems.HORMONE_BONEMEAL);
         }
     };
 
+    public static final CreativeTabs FARMING = new CreativeTabs(CreativeTabs.getNextID(), "easy_farming")
+    {
+        @SideOnly(Side.CLIENT)
+        public ItemStack getTabIconItem()
+        {
+            return new ItemStack(ModItems.FIBRE);
+        }
+    };
+
+    public static final CreativeTabs EXTRA_FOOD = new CreativeTabs(CreativeTabs.getNextID(), "extra_food")
+    {
+        @SideOnly(Side.CLIENT)
+        public ItemStack getTabIconItem()
+        {
+            return new ItemStack(ModItems.CLASSICAL_BARBECUE);
+        }
+    };
 }

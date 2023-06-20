@@ -3,6 +3,7 @@ package com.momo.hormone.item.food;
 import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;
 import com.momo.hormone.util.CommonFunctions;
+import com.momo.hormone.util.IDLSkillNBT;
 import com.momo.hormone.util.IHasModel;
 import com.momo.hormone.util.NBTStrDef.IDLNBTDef;
 import com.momo.hormone.util.NBTStrDef.IDLNBTUtil;
@@ -25,7 +26,6 @@ public class ItemFoodBase extends ItemFood implements IHasModel {
     private EnumRarity enumRarity = EnumRarity.COMMON;
     protected boolean shiftToShowDesc = false;
     protected boolean use_flavor = false;
-    protected boolean useable = false;
     protected boolean logNBT = false;
 
     //for creating variants
@@ -54,10 +54,6 @@ public class ItemFoodBase extends ItemFood implements IHasModel {
     }
 
     public int addXP = 0;
-
-    Potion potion;
-    int level;
-    int duration;
 
     public ItemFoodBase SetXP(int addXP)
     {
@@ -92,6 +88,8 @@ public class ItemFoodBase extends ItemFood implements IHasModel {
     @SideOnly(Side.CLIENT)
     @Override
     public void addInformation(ItemStack stack, World world, List<String> tooltip, ITooltipFlag flag) {
+
+        IDLSkillNBT.addInformation(stack, world, tooltip, flag, shiftToShowDesc, use_flavor, getMainDesc(stack, world, tooltip, flag));
 
         if (logNBT)
         {
@@ -134,7 +132,6 @@ public class ItemFoodBase extends ItemFood implements IHasModel {
                 return "";
             }
         }
-
         return "";
     }
 }

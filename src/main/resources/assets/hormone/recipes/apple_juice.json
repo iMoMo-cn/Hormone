@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "hormone:glass_cup"
+    },
+    {
+      "item": "hormone:hammer"
+    }
+  ],
+  "result": {
+    "item": "hormone:apple_juice",
+    "count": 1
+  }
+}

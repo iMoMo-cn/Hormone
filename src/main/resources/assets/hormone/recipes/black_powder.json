@@ -5,6 +5,9 @@
     {
       "item": "minecraft:coal",
       "data": 1
+    },
+    {
+      "item": "hormone:hammer"
     }
   ],
   "result": {

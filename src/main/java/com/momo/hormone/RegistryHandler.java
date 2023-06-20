@@ -1,6 +1,5 @@
 package com.momo.hormone;
 
-import com.momo.hormone.enchantments.ModEnchantmentInit;
 import com.momo.hormone.entity.creatures.ModEntityInit;
 import com.momo.hormone.entity.creatures.villager.ModVillagers;
 import com.momo.hormone.entity.creatures.villager.VillagerMerchants;
@@ -14,7 +13,6 @@ import com.momo.hormone.potion.effect.ModPotions;
 import com.momo.hormone.potion.item.ModPotionTypes;
 import com.momo.hormone.util.IHasModel;
 import com.momo.hormone.util.sound.ModSoundHandler;
-import com.momo.hormone.worldgen.ModWorldGenOld;
 import com.momo.hormone.worldgen.WildPlantGen;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
@@ -49,8 +47,7 @@ public class RegistryHandler {
 	@SubscribeEvent
 	public static void onEnchantmentRegister(RegistryEvent.Register<Enchantment> event)
 	{
-		ModEnchantmentInit.BeforeRegister();
-		event.getRegistry().registerAll(ModEnchantmentInit.ENCHANTMENT_LIST.toArray(new Enchantment[0]));
+
 	}
 
 	@SubscribeEvent
@@ -119,6 +116,6 @@ public class RegistryHandler {
 
 	public static void serverRegistries(FMLServerStartingEvent event)
     {
-        //event.registerServerCommand(new CommandDimTeleport());
+
     }
 }

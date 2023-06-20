@@ -1,8 +1,8 @@
 package com.momo.hormone.blocks.blockVariant;
 
 import com.momo.hormone.MoMoFramework;
-import com.momo.hormone.blocks.BlockBase;
-import com.momo.hormone.item.ItemBlockVariant;
+import com.momo.hormone.blocks.blockBasic.BlockBase;
+import com.momo.hormone.item.variants.ItemBlockVariant;
 import com.momo.hormone.item.ModItems;
 import com.momo.hormone.util.IMetaName;
 import net.minecraft.block.material.MapColor;

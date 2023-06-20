@@ -1,7 +1,6 @@
 package com.momo.hormone.proxy;
 
 import com.momo.hormone.entity.tiles.ModTileEntityItemStackRenderer;
-import com.momo.hormone.item.ItemVariantBase;
 import com.momo.hormone.item.shields.ItemShieldBase;
 import com.momo.hormone.util.IMetaName;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

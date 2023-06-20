@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "hormone:hormone_empty"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllmushroom"
+    }
+  ],
+  "result": {
+    "item": "hormone:hormone_mushroom",
+    "count": 1
+  }
+}

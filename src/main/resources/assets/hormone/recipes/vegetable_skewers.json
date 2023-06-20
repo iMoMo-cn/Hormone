@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "hormone:diced_vegetable"
+    },
+    {
+      "item": "hormone:diced_vegetable"
+    },
+    {
+      "item": "hormone:diced_vegetable"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  ],
+  "result": {
+    "item": "hormone:vegetable_skewers",
+    "count": 1
+  }
+}

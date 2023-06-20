@@ -1,0 +1,12 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    { "type": "forge:ore_dict", "ore": "listAllmushroom" },
+    { "type": "forge:ore_dict", "ore": "listAllmeatraw" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 1
+  }
+}
