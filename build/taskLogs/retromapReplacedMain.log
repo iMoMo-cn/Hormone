@@ -1,4 +1,4 @@
-Processing 118 files
+Processing 119 files
 Start Processing: com/momo/hormone/MoMoFramework.java
 New Key: class net/minecraftforge/fml/common/Mod
 Import: com.momo.hormone.gui.ModGuiElementLoader
@@ -1165,253 +1165,39 @@ Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 Import: net.minecraftforge.fml.common.gameevent.PlayerEvent
 End  Processing: com/momo/hormone/events/ModStarterEvents.java
 
-Start Processing: com/momo/hormone/events/hormone/growth/BonemealHormone.java
+Start Processing: com/momo/hormone/events/hormone/aniaml/HolyMob.java
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
-Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[911,922]::getHeldItem->func_184586_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1068,1081]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1117,1125]::getBlock->func_177230_c
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1177,1184]::getItem->func_77973_b
-Rename method net/minecraft/block/BlockCrops/isMaxAge (Lnet/minecraft/block/state/IBlockState;)Z[1301,1309]::isMaxAge->func_185525_y
-Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[1362,1370]::swingArm->func_184609_a
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1422,1434]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1437,1451]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[1502,1508]::shrink->func_190918_g
-Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[1715,1718]::add->func_177982_a
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1859,1866]::getItem->func_77973_b
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[1969,1977]::getValue->func_177229_b
-Rename field net/minecraft/block/BlockCocoa/AGE[1994,1997]::AGE->field_176501_a
-Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[2055,2063]::swingArm->func_184609_a
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2115,2127]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2130,2144]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[2195,2201]::shrink->func_190918_g
-Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[2493,2496]::add->func_177982_a
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2663,2670]::getItem->func_77973_b
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2772,2780]::getValue->func_177229_b
-Rename field net/minecraft/block/BlockStem/AGE[2796,2799]::AGE->field_176484_a
-Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[2858,2866]::swingArm->func_184609_a
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2918,2930]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2933,2947]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[2998,3004]::shrink->func_190918_g
-Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[3211,3214]::add->func_177982_a
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[3357,3364]::getItem->func_77973_b
-Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[3466,3474]::swingArm->func_184609_a
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[3522,3534]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[3537,3551]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[3594,3600]::shrink->func_190918_g
-Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[3783,3786]::add->func_177982_a
-Rename field net/minecraft/world/World/isRemote[3952,3960]::isRemote->field_72995_K
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4017,4030]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4070,4078]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/SAPLING[4246,4253]::SAPLING->field_150345_g
-Rename field net/minecraft/init/Blocks/COCOA[4371,4376]::COCOA->field_150375_by
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4784,4792]::getBlock->func_177230_c
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4898,4906]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4948,4961]::getBlockState->func_180495_p
-Rename method net/minecraft/block/IGrowable/canGrow (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Z)Z[5004,5011]::canGrow->func_176473_a
-Rename method net/minecraft/block/IGrowable/grow (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[5098,5102]::grow->func_176474_b
-Rename field net/minecraft/world/World/rand[5125,5129]::rand->field_73012_v
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[5216,5229]::spawnParticle->func_180505_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[5275,5279]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[5303,5307]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[5331,5335]::getZ->func_177952_p
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5611,5624]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5669,5677]::getBlock->func_177230_c
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5787,5795]::getBlock->func_177230_c
-Rename method net/minecraft/block/IGrowable/grow (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[5831,5835]::grow->func_176474_b
-Rename field net/minecraft/world/World/rand[5858,5862]::rand->field_73012_v
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[5961,5974]::spawnParticle->func_180505_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[6027,6031]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[6062,6066]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[6094,6098]::getZ->func_177952_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6376,6384]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6423,6436]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6468,6476]::getBlock->func_177230_c
-Rename method net/minecraft/block/IGrowable/canGrow (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Z)Z[6555,6562]::canGrow->func_176473_a
-Rename method net/minecraft/block/IGrowable/grow (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[6649,6653]::grow->func_176474_b
-Rename field net/minecraft/world/World/rand[6676,6680]::rand->field_73012_v
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[6767,6780]::spawnParticle->func_180505_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[6826,6830]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[6854,6858]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[6879,6883]::getZ->func_177952_p
-Import: com.momo.hormone.MoMoFramework
-Import: com.momo.hormone.item.ModItems
-Import: net.minecraft.block.*
-Import: net.minecraft.block.state.IBlockState
-Import: net.minecraft.entity.player.EntityPlayer
-Import: net.minecraft.init.Blocks
-Import: net.minecraft.item.ItemStack
-Import: net.minecraft.util.EnumParticleTypes
-Import: net.minecraft.util.math.BlockPos
-Import: net.minecraft.world.World
-Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
-Import: net.minecraftforge.fml.common.Mod
-Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-End  Processing: com/momo/hormone/events/hormone/growth/BonemealHormone.java
-
-Start Processing: com/momo/hormone/events/hormone/growth/FlowerHormone.java
-New Key: class net/minecraftforge/fml/common/Mod
-New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
-Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[939,950]::getHeldItem->func_184586_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1096,1109]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1145,1153]::getBlock->func_177230_c
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1226,1233]::getItem->func_77973_b
-Rename field net/minecraft/init/Blocks/GRASS[1287,1292]::GRASS->field_150349_c
-Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[1334,1342]::swingArm->func_184609_a
-Rename field net/minecraft/world/World/isRemote[1389,1397]::isRemote->field_72995_K
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1448,1460]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1463,1477]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[1528,1534]::shrink->func_190918_g
-Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[1754,1757]::add->func_177982_a
-Rename field net/minecraft/init/Blocks/YELLOW_FLOWER[1924,1937]::YELLOW_FLOWER->field_150327_N
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1939,1954]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2002,2010]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/canPlaceBlockAt (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Z[2018,2033]::canPlaceBlockAt->func_176196_c
-Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[2118,2131]::setBlockState->func_180501_a
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[2261,2274]::spawnParticle->func_180505_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[2323,2327]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[2354,2358]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[2382,2386]::getZ->func_177952_p
-Rename field net/minecraft/init/Blocks/RED_FLOWER[2646,2656]::RED_FLOWER->field_150328_O
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2661,2676]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2677,2689]::withProperty->func_177226_a
-Rename field net/minecraft/init/Blocks/RED_FLOWER[2698,2708]::RED_FLOWER->field_150328_O
-Rename method net/minecraft/block/BlockFlower/getTypeProperty ()Lnet/minecraft/block/properties/IProperty;[2713,2728]::getTypeProperty->func_176494_l
-New Key: class net/minecraft/block/BlockFlower
-Rename method net/minecraft/block/BlockFlower/EnumFlowerType/getType (Lnet/minecraft/block/BlockFlower$EnumFlowerColor;I)Lnet/minecraft/block/BlockFlower$EnumFlowerType;[2757,2764]::getType->func_176967_a
-New Key: class net/minecraft/block/BlockFlower
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2871,2879]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/canPlaceBlockAt (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Z[2887,2902]::canPlaceBlockAt->func_176196_c
-Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[2987,3000]::setBlockState->func_180501_a
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[3130,3143]::spawnParticle->func_180505_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[3192,3196]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[3223,3227]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[3251,3255]::getZ->func_177952_p
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[3425,3432]::getItem->func_77973_b
-Rename field net/minecraft/init/Blocks/GRASS[3490,3495]::GRASS->field_150349_c
-Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[3537,3545]::swingArm->func_184609_a
-Rename field net/minecraft/world/World/isRemote[3592,3600]::isRemote->field_72995_K
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[3651,3663]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[3666,3680]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[3731,3737]::shrink->func_190918_g
-Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[3957,3960]::add->func_177982_a
-Rename field net/minecraft/init/Blocks/DOUBLE_PLANT[4370,4382]::DOUBLE_PLANT->field_150398_cm
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4386,4401]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4402,4414]::withProperty->func_177226_a
-Rename field net/minecraft/block/BlockDoublePlant/VARIANT[4433,4440]::VARIANT->field_176493_a
-New Key: class net/minecraft/block/BlockDoublePlant
-Rename method net/minecraft/block/BlockDoublePlant/EnumPlantType/byMetadata (I)Lnet/minecraft/block/BlockDoublePlant$EnumPlantType;[4480,4490]::byMetadata->func_176938_a
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4545,4553]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/canPlaceBlockAt (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Z[4561,4576]::canPlaceBlockAt->func_176196_c
-Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[4661,4674]::setBlockState->func_180501_a
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4695,4707]::withProperty->func_177226_a
-Rename field net/minecraft/block/BlockDoublePlant/HALF[4726,4730]::HALF->field_176492_b
-New Key: class net/minecraft/block/BlockDoublePlant
-Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[4824,4837]::setBlockState->func_180501_a
-Rename method net/minecraft/util/math/BlockPos/up ()Lnet/minecraft/util/math/BlockPos;[4845,4847]::up->func_177984_a
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4874,4886]::withProperty->func_177226_a
-Rename field net/minecraft/block/BlockDoublePlant/HALF[4905,4909]::HALF->field_176492_b
-New Key: class net/minecraft/block/BlockDoublePlant
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[5068,5081]::spawnParticle->func_180505_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[5130,5134]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[5161,5165]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[5189,5193]::getZ->func_177952_p
-Import: com.momo.hormone.MoMoFramework
-Import: com.momo.hormone.item.ModItems
-Import: net.minecraft.block.*
-Import: net.minecraft.block.state.IBlockState
-Import: net.minecraft.entity.player.EntityPlayer
-Import: net.minecraft.init.Blocks
-Import: net.minecraft.item.ItemStack
-Import: net.minecraft.util.EnumParticleTypes
-Import: net.minecraft.util.math.BlockPos
-Import: net.minecraft.world.World
-Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
-Import: net.minecraftforge.fml.common.Mod
-Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-Import: java.util.Random
-End  Processing: com/momo/hormone/events/hormone/growth/FlowerHormone.java
-
-Start Processing: com/momo/hormone/events/hormone/growth/InstantGrowth.java
-New Key: class net/minecraftforge/fml/common/Mod
-New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
-Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[1050,1061]::getHeldItem->func_184586_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1195,1202]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1375,1382]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1683,1690]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1899,1906]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2074,2081]::getItem->func_77973_b
-Rename method net/minecraft/entity/EntityLivingBase/isChild ()Z[2343,2350]::isChild->func_70631_g_
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2396,2408]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2411,2425]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[2468,2474]::shrink->func_190918_g
-Rename field net/minecraft/world/World/isRemote[2526,2534]::isRemote->field_72995_K
-Rename method net/minecraft/entity/EntityAgeable/setGrowingAge (I)V[2597,2610]::setGrowingAge->func_70873_a
-Rename field net/minecraft/entity/Entity/world[2673,2678]::world->field_70170_p
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[2688,2701]::spawnParticle->func_180505_a
-Rename field net/minecraft/entity/Entity/posX[2750,2754]::posX->field_70165_t
-Rename field net/minecraft/entity/Entity/posY[2772,2776]::posY->field_70163_u
-Rename field net/minecraft/entity/Entity/height[2805,2811]::height->field_70131_O
-Rename field net/minecraft/entity/Entity/posZ[2828,2832]::posZ->field_70161_v
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[989,1000]::getHeldItem->func_184586_b
+Rename field net/minecraft/world/World/isRemote[1073,1081]::isRemote->field_72995_K
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1160,1167]::getItem->func_77973_b
+Rename method net/minecraft/entity/EntityLivingBase/isEntityUndead ()Z[1316,1330]::isEntityUndead->func_70662_br
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1385,1397]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1400,1414]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[1473,1479]::shrink->func_190918_g
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[1550,1566]::attackEntityFrom->func_70097_a
+Rename field net/minecraft/util/DamageSource/MAGIC[1576,1581]::MAGIC->field_76376_m
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[1665,1678]::spawnParticle->func_180505_a
+Rename field net/minecraft/entity/Entity/posX[1735,1739]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[1763,1767]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/height[1792,1798]::height->field_70131_O
+Rename field net/minecraft/entity/Entity/posZ[1820,1824]::posZ->field_70161_v
 Import: com.momo.hormone.MoMoFramework
 Import: com.momo.hormone.item.ModItems
 Import: net.minecraft.entity.Entity
-Import: net.minecraft.entity.monster.EntityPolarBear
-Import: net.minecraft.entity.passive.*
+Import: net.minecraft.entity.EntityLiving
 Import: net.minecraft.entity.player.EntityPlayer
 Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.DamageSource
 Import: net.minecraft.util.EnumHand
 Import: net.minecraft.util.EnumParticleTypes
 Import: net.minecraft.world.World
 Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
 Import: net.minecraftforge.fml.common.Mod
 Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-End  Processing: com/momo/hormone/events/hormone/growth/InstantGrowth.java
+End  Processing: com/momo/hormone/events/hormone/aniaml/HolyMob.java
 
-Start Processing: com/momo/hormone/events/hormone/growth/NetherWartGrow.java
-New Key: class net/minecraftforge/fml/common/Mod
-New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
-Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[1021,1032]::getHeldItem->func_184586_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1178,1191]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1227,1235]::getBlock->func_177230_c
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1269,1276]::getItem->func_77973_b
-Rename field net/minecraft/init/Blocks/NETHER_WART[1331,1342]::NETHER_WART->field_150388_bm
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[1381,1389]::getValue->func_177229_b
-Rename field net/minecraft/block/BlockNetherWart/AGE[1411,1414]::AGE->field_176486_a
-Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[1471,1479]::swingArm->func_184609_a
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1532,1544]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1547,1561]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[1612,1618]::shrink->func_190918_g
-Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[1822,1825]::add->func_177982_a
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1901,1914]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1977,1985]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[2371,2387]::getMetaFromState->func_176201_c
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2470,2482]::withProperty->func_177226_a
-Rename field net/minecraft/block/BlockNetherWart/AGE[2500,2503]::AGE->field_176486_a
-Rename field net/minecraft/world/World/isRemote[2545,2553]::isRemote->field_72995_K
-Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[2598,2611]::setBlockState->func_180501_a
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[2690,2703]::spawnParticle->func_180505_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[2746,2750]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[2774,2778]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[2802,2806]::getZ->func_177952_p
-Import: com.momo.hormone.MoMoFramework
-Import: com.momo.hormone.item.ModItems
-Import: net.minecraft.block.Block
-Import: net.minecraft.block.BlockNetherWart
-Import: net.minecraft.block.properties.PropertyInteger
-Import: net.minecraft.block.state.IBlockState
-Import: net.minecraft.entity.player.EntityPlayer
-Import: net.minecraft.init.Blocks
-Import: net.minecraft.item.ItemStack
-Import: net.minecraft.util.EnumParticleTypes
-Import: net.minecraft.util.math.BlockPos
-Import: net.minecraft.world.World
-Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
-Import: net.minecraftforge.fml.common.Mod
-Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-End  Processing: com/momo/hormone/events/hormone/growth/NetherWartGrow.java
-
-Start Processing: com/momo/hormone/events/hormone/rotten/RottenHorse.java
+Start Processing: com/momo/hormone/events/hormone/aniaml/RottenHorse.java
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
 Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[1131,1142]::getHeldItem->func_184586_b
@@ -1503,65 +1289,64 @@ Import: net.minecraft.world.World
 Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
 Import: net.minecraftforge.fml.common.Mod
 Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-End  Processing: com/momo/hormone/events/hormone/rotten/RottenHorse.java
+End  Processing: com/momo/hormone/events/hormone/aniaml/RottenHorse.java
 
-Start Processing: com/momo/hormone/events/hormone/rotten/RottenMob.java
+Start Processing: com/momo/hormone/events/hormone/aniaml/RottenMob.java
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
-Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[1359,1370]::getHeldItem->func_184586_b
-Rename field net/minecraft/world/World/isRemote[1444,1452]::isRemote->field_72995_K
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1522,1529]::getItem->func_77973_b
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1596,1608]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1611,1625]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[1659,1665]::shrink->func_190918_g
-Rename field net/minecraft/entity/Entity/world[1773,1778]::world->field_70170_p
-Rename method net/minecraft/entity/Entity/playSound (Lnet/minecraft/util/SoundEvent;FF)V[1865,1874]::playSound->func_184185_a
-Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_AMBIENT[1891,1914]::ENTITY_SKELETON_AMBIENT->field_187854_fc
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2001,2008]::getItem->func_77973_b
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2075,2087]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2090,2104]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[2138,2144]::shrink->func_190918_g
-Rename field net/minecraft/entity/Entity/world[2270,2275]::world->field_70170_p
-Rename method net/minecraft/entity/Entity/playSound (Lnet/minecraft/util/SoundEvent;FF)V[2368,2377]::playSound->func_184185_a
-Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_SKELETON_AMBIENT[2394,2424]::ENTITY_WITHER_SKELETON_AMBIENT->field_190036_ha
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2504,2511]::getItem->func_77973_b
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2578,2590]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2593,2607]::isCreativeMode->field_75098_d
-Rename method net/minecraft/item/ItemStack/shrink (I)V[2641,2647]::shrink->func_190918_g
-Rename field net/minecraft/entity/Entity/world[2746,2751]::world->field_70170_p
-Rename method net/minecraft/entity/Entity/playSound (Lnet/minecraft/util/SoundEvent;FF)V[2835,2844]::playSound->func_184185_a
-Rename field net/minecraft/init/SoundEvents/ENTITY_WITCH_AMBIENT[2861,2881]::ENTITY_WITCH_AMBIENT->field_187920_gt
-Rename method net/minecraft/entity/Entity/setItemStackToSlot (Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)V[3516,3534]::setItemStackToSlot->func_184201_a
-Rename method net/minecraft/entity/EntityLivingBase/getItemStackFromSlot (Lnet/minecraft/inventory/EntityEquipmentSlot;)Lnet/minecraft/item/ItemStack;[3564,3584]::getItemStackFromSlot->func_184582_a
-Rename method net/minecraft/entity/Entity/setPositionAndRotation (DDDFF)V[3703,3725]::setPositionAndRotation->func_70080_a
-Rename field net/minecraft/entity/Entity/posX[3723,3727]::posX->field_70165_t
-Rename field net/minecraft/entity/Entity/posY[3745,3749]::posY->field_70163_u
-Rename field net/minecraft/entity/Entity/posZ[3767,3771]::posZ->field_70161_v
-Rename field net/minecraft/entity/Entity/rotationYaw[3789,3800]::rotationYaw->field_70177_z
-Rename field net/minecraft/entity/Entity/rotationPitch[3811,3824]::rotationPitch->field_70125_A
-Rename field net/minecraft/entity/EntityLivingBase/renderYawOffset[3861,3876]::renderYawOffset->field_70761_aq
-Rename field net/minecraft/entity/EntityLivingBase/renderYawOffset[3902,3917]::renderYawOffset->field_70761_aq
-Rename method net/minecraft/entity/Entity/hasCustomName ()Z[3940,3953]::hasCustomName->func_145818_k_
-Rename method net/minecraft/entity/Entity/setCustomNameTag (Ljava/lang/String;)V[3990,4006]::setCustomNameTag->func_96094_a
-Rename method net/minecraft/entity/Entity/getCustomNameTag ()Ljava/lang/String;[4010,4026]::getCustomNameTag->func_95999_t
-Rename method net/minecraft/entity/EntityLivingBase/getHealth ()F[4088,4097]::getHealth->func_110143_aJ
-Rename method net/minecraft/entity/EntityLivingBase/getMaxHealth ()F[4131,4143]::getMaxHealth->func_110138_aP
-Rename method net/minecraft/entity/EntityLivingBase/setHealth (F)V[4183,4192]::setHealth->func_70606_j
-Rename method net/minecraft/entity/EntityLivingBase/getMaxHealth ()F[4221,4233]::getMaxHealth->func_110138_aP
-Rename method net/minecraft/entity/Entity/setDead ()V[4350,4357]::setDead->func_70106_y
-Rename field net/minecraft/entity/Entity/world[4417,4422]::world->field_70170_p
-Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[4432,4445]::spawnParticle->func_180505_a
-Rename field net/minecraft/entity/Entity/posX[4491,4495]::posX->field_70165_t
-Rename field net/minecraft/entity/Entity/posY[4513,4517]::posY->field_70163_u
-Rename field net/minecraft/entity/Entity/height[4545,4551]::height->field_70131_O
-Rename field net/minecraft/entity/Entity/posZ[4567,4571]::posZ->field_70161_v
-Rename field net/minecraft/entity/Entity/world[4627,4632]::world->field_70170_p
-Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[4641,4652]::spawnEntity->func_72838_d
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[1311,1322]::getHeldItem->func_184586_b
+Rename field net/minecraft/world/World/isRemote[1396,1404]::isRemote->field_72995_K
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1474,1481]::getItem->func_77973_b
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1548,1560]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1563,1577]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[1611,1617]::shrink->func_190918_g
+Rename field net/minecraft/entity/Entity/world[1725,1730]::world->field_70170_p
+Rename method net/minecraft/entity/Entity/playSound (Lnet/minecraft/util/SoundEvent;FF)V[1817,1826]::playSound->func_184185_a
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_AMBIENT[1843,1866]::ENTITY_SKELETON_AMBIENT->field_187854_fc
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1953,1960]::getItem->func_77973_b
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2027,2039]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2042,2056]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[2090,2096]::shrink->func_190918_g
+Rename field net/minecraft/entity/Entity/world[2222,2227]::world->field_70170_p
+Rename method net/minecraft/entity/Entity/playSound (Lnet/minecraft/util/SoundEvent;FF)V[2320,2329]::playSound->func_184185_a
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_SKELETON_AMBIENT[2346,2376]::ENTITY_WITHER_SKELETON_AMBIENT->field_190036_ha
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2456,2463]::getItem->func_77973_b
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2530,2542]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2545,2559]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[2593,2599]::shrink->func_190918_g
+Rename field net/minecraft/entity/Entity/world[2698,2703]::world->field_70170_p
+Rename method net/minecraft/entity/Entity/playSound (Lnet/minecraft/util/SoundEvent;FF)V[2787,2796]::playSound->func_184185_a
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITCH_AMBIENT[2813,2833]::ENTITY_WITCH_AMBIENT->field_187920_gt
+Rename method net/minecraft/entity/Entity/setItemStackToSlot (Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)V[3468,3486]::setItemStackToSlot->func_184201_a
+Rename method net/minecraft/entity/EntityLivingBase/getItemStackFromSlot (Lnet/minecraft/inventory/EntityEquipmentSlot;)Lnet/minecraft/item/ItemStack;[3516,3536]::getItemStackFromSlot->func_184582_a
+Rename method net/minecraft/entity/Entity/setPositionAndRotation (DDDFF)V[3655,3677]::setPositionAndRotation->func_70080_a
+Rename field net/minecraft/entity/Entity/posX[3675,3679]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[3697,3701]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[3719,3723]::posZ->field_70161_v
+Rename field net/minecraft/entity/Entity/rotationYaw[3741,3752]::rotationYaw->field_70177_z
+Rename field net/minecraft/entity/Entity/rotationPitch[3763,3776]::rotationPitch->field_70125_A
+Rename field net/minecraft/entity/EntityLivingBase/renderYawOffset[3813,3828]::renderYawOffset->field_70761_aq
+Rename field net/minecraft/entity/EntityLivingBase/renderYawOffset[3854,3869]::renderYawOffset->field_70761_aq
+Rename method net/minecraft/entity/Entity/hasCustomName ()Z[3892,3905]::hasCustomName->func_145818_k_
+Rename method net/minecraft/entity/Entity/setCustomNameTag (Ljava/lang/String;)V[3942,3958]::setCustomNameTag->func_96094_a
+Rename method net/minecraft/entity/Entity/getCustomNameTag ()Ljava/lang/String;[3962,3978]::getCustomNameTag->func_95999_t
+Rename method net/minecraft/entity/EntityLivingBase/getHealth ()F[4040,4049]::getHealth->func_110143_aJ
+Rename method net/minecraft/entity/EntityLivingBase/getMaxHealth ()F[4083,4095]::getMaxHealth->func_110138_aP
+Rename method net/minecraft/entity/EntityLivingBase/setHealth (F)V[4135,4144]::setHealth->func_70606_j
+Rename method net/minecraft/entity/EntityLivingBase/getMaxHealth ()F[4173,4185]::getMaxHealth->func_110138_aP
+Rename method net/minecraft/entity/Entity/setDead ()V[4302,4309]::setDead->func_70106_y
+Rename field net/minecraft/entity/Entity/world[4369,4374]::world->field_70170_p
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[4384,4397]::spawnParticle->func_180505_a
+Rename field net/minecraft/entity/Entity/posX[4443,4447]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[4465,4469]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/height[4497,4503]::height->field_70131_O
+Rename field net/minecraft/entity/Entity/posZ[4519,4523]::posZ->field_70161_v
+Rename field net/minecraft/entity/Entity/world[4579,4584]::world->field_70170_p
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[4593,4604]::spawnEntity->func_72838_d
 Import: com.momo.hormone.MoMoFramework
 Import: com.momo.hormone.item.ModItems
 Import: net.minecraft.entity.Entity
 Import: net.minecraft.entity.EntityLiving
-Import: net.minecraft.entity.boss.EntityWither
 Import: net.minecraft.entity.monster.EntitySkeleton
 Import: net.minecraft.entity.monster.EntityWitch
 Import: net.minecraft.entity.monster.EntityWitherSkeleton
@@ -1577,7 +1362,252 @@ Import: net.minecraft.world.World
 Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
 Import: net.minecraftforge.fml.common.Mod
 Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-End  Processing: com/momo/hormone/events/hormone/rotten/RottenMob.java
+End  Processing: com/momo/hormone/events/hormone/aniaml/RottenMob.java
+
+Start Processing: com/momo/hormone/events/hormone/plant/BonemealHormone.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[910,921]::getHeldItem->func_184586_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1067,1080]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1116,1124]::getBlock->func_177230_c
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1176,1183]::getItem->func_77973_b
+Rename method net/minecraft/block/BlockCrops/isMaxAge (Lnet/minecraft/block/state/IBlockState;)Z[1300,1308]::isMaxAge->func_185525_y
+Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[1361,1369]::swingArm->func_184609_a
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1421,1433]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1436,1450]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[1501,1507]::shrink->func_190918_g
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[1714,1717]::add->func_177982_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1858,1865]::getItem->func_77973_b
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[1968,1976]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockCocoa/AGE[1993,1996]::AGE->field_176501_a
+Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[2054,2062]::swingArm->func_184609_a
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2114,2126]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2129,2143]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[2194,2200]::shrink->func_190918_g
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[2492,2495]::add->func_177982_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2662,2669]::getItem->func_77973_b
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2771,2779]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockStem/AGE[2795,2798]::AGE->field_176484_a
+Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[2857,2865]::swingArm->func_184609_a
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2917,2929]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2932,2946]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[2997,3003]::shrink->func_190918_g
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[3210,3213]::add->func_177982_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[3356,3363]::getItem->func_77973_b
+Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[3465,3473]::swingArm->func_184609_a
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[3521,3533]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[3536,3550]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[3593,3599]::shrink->func_190918_g
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[3782,3785]::add->func_177982_a
+Rename field net/minecraft/world/World/isRemote[3951,3959]::isRemote->field_72995_K
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4016,4029]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4069,4077]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/SAPLING[4245,4252]::SAPLING->field_150345_g
+Rename field net/minecraft/init/Blocks/COCOA[4370,4375]::COCOA->field_150375_by
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4783,4791]::getBlock->func_177230_c
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4897,4905]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4947,4960]::getBlockState->func_180495_p
+Rename method net/minecraft/block/IGrowable/canGrow (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Z)Z[5003,5010]::canGrow->func_176473_a
+Rename method net/minecraft/block/IGrowable/grow (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[5097,5101]::grow->func_176474_b
+Rename field net/minecraft/world/World/rand[5124,5128]::rand->field_73012_v
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[5215,5228]::spawnParticle->func_180505_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[5274,5278]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[5302,5306]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[5330,5334]::getZ->func_177952_p
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5610,5623]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5668,5676]::getBlock->func_177230_c
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5786,5794]::getBlock->func_177230_c
+Rename method net/minecraft/block/IGrowable/grow (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[5830,5834]::grow->func_176474_b
+Rename field net/minecraft/world/World/rand[5857,5861]::rand->field_73012_v
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[5960,5973]::spawnParticle->func_180505_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[6026,6030]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[6061,6065]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[6093,6097]::getZ->func_177952_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6375,6383]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6422,6435]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6467,6475]::getBlock->func_177230_c
+Rename method net/minecraft/block/IGrowable/canGrow (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Z)Z[6554,6561]::canGrow->func_176473_a
+Rename method net/minecraft/block/IGrowable/grow (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[6648,6652]::grow->func_176474_b
+Rename field net/minecraft/world/World/rand[6675,6679]::rand->field_73012_v
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[6766,6779]::spawnParticle->func_180505_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[6825,6829]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[6853,6857]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[6878,6882]::getZ->func_177952_p
+Import: com.momo.hormone.MoMoFramework
+Import: com.momo.hormone.item.ModItems
+Import: net.minecraft.block.*
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.EnumParticleTypes
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.World
+Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+End  Processing: com/momo/hormone/events/hormone/plant/BonemealHormone.java
+
+Start Processing: com/momo/hormone/events/hormone/plant/FlowerHormone.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[938,949]::getHeldItem->func_184586_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1095,1108]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1144,1152]::getBlock->func_177230_c
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1225,1232]::getItem->func_77973_b
+Rename field net/minecraft/init/Blocks/GRASS[1286,1291]::GRASS->field_150349_c
+Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[1333,1341]::swingArm->func_184609_a
+Rename field net/minecraft/world/World/isRemote[1388,1396]::isRemote->field_72995_K
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1447,1459]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1462,1476]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[1527,1533]::shrink->func_190918_g
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[1753,1756]::add->func_177982_a
+Rename field net/minecraft/init/Blocks/YELLOW_FLOWER[1923,1936]::YELLOW_FLOWER->field_150327_N
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1938,1953]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2001,2009]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/canPlaceBlockAt (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Z[2017,2032]::canPlaceBlockAt->func_176196_c
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[2117,2130]::setBlockState->func_180501_a
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[2260,2273]::spawnParticle->func_180505_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2322,2326]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2353,2357]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2381,2385]::getZ->func_177952_p
+Rename field net/minecraft/init/Blocks/RED_FLOWER[2645,2655]::RED_FLOWER->field_150328_O
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2660,2675]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2676,2688]::withProperty->func_177226_a
+Rename field net/minecraft/init/Blocks/RED_FLOWER[2697,2707]::RED_FLOWER->field_150328_O
+Rename method net/minecraft/block/BlockFlower/getTypeProperty ()Lnet/minecraft/block/properties/IProperty;[2712,2727]::getTypeProperty->func_176494_l
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/block/BlockFlower/EnumFlowerType/getType (Lnet/minecraft/block/BlockFlower$EnumFlowerColor;I)Lnet/minecraft/block/BlockFlower$EnumFlowerType;[2756,2763]::getType->func_176967_a
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2870,2878]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/canPlaceBlockAt (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Z[2886,2901]::canPlaceBlockAt->func_176196_c
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[2986,2999]::setBlockState->func_180501_a
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[3129,3142]::spawnParticle->func_180505_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[3191,3195]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[3222,3226]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[3250,3254]::getZ->func_177952_p
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[3424,3431]::getItem->func_77973_b
+Rename field net/minecraft/init/Blocks/GRASS[3489,3494]::GRASS->field_150349_c
+Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[3536,3544]::swingArm->func_184609_a
+Rename field net/minecraft/world/World/isRemote[3591,3599]::isRemote->field_72995_K
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[3650,3662]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[3665,3679]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[3730,3736]::shrink->func_190918_g
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[3956,3959]::add->func_177982_a
+Rename field net/minecraft/init/Blocks/DOUBLE_PLANT[4369,4381]::DOUBLE_PLANT->field_150398_cm
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4385,4400]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4401,4413]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockDoublePlant/VARIANT[4432,4439]::VARIANT->field_176493_a
+New Key: class net/minecraft/block/BlockDoublePlant
+Rename method net/minecraft/block/BlockDoublePlant/EnumPlantType/byMetadata (I)Lnet/minecraft/block/BlockDoublePlant$EnumPlantType;[4479,4489]::byMetadata->func_176938_a
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4544,4552]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/canPlaceBlockAt (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Z[4560,4575]::canPlaceBlockAt->func_176196_c
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[4660,4673]::setBlockState->func_180501_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4694,4706]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockDoublePlant/HALF[4725,4729]::HALF->field_176492_b
+New Key: class net/minecraft/block/BlockDoublePlant
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[4823,4836]::setBlockState->func_180501_a
+Rename method net/minecraft/util/math/BlockPos/up ()Lnet/minecraft/util/math/BlockPos;[4844,4846]::up->func_177984_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4873,4885]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockDoublePlant/HALF[4904,4908]::HALF->field_176492_b
+New Key: class net/minecraft/block/BlockDoublePlant
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[5067,5080]::spawnParticle->func_180505_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[5129,5133]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[5160,5164]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[5188,5192]::getZ->func_177952_p
+Import: com.momo.hormone.MoMoFramework
+Import: com.momo.hormone.item.ModItems
+Import: net.minecraft.block.*
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.EnumParticleTypes
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.World
+Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: java.util.Random
+End  Processing: com/momo/hormone/events/hormone/plant/FlowerHormone.java
+
+Start Processing: com/momo/hormone/events/hormone/plant/InstantGrowth.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[1049,1060]::getHeldItem->func_184586_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1194,1201]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1374,1381]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1682,1689]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1898,1905]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2073,2080]::getItem->func_77973_b
+Rename method net/minecraft/entity/EntityLivingBase/isChild ()Z[2342,2349]::isChild->func_70631_g_
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2395,2407]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2410,2424]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[2467,2473]::shrink->func_190918_g
+Rename field net/minecraft/world/World/isRemote[2525,2533]::isRemote->field_72995_K
+Rename method net/minecraft/entity/EntityAgeable/setGrowingAge (I)V[2596,2609]::setGrowingAge->func_70873_a
+Rename field net/minecraft/entity/Entity/world[2672,2677]::world->field_70170_p
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[2687,2700]::spawnParticle->func_180505_a
+Rename field net/minecraft/entity/Entity/posX[2749,2753]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[2771,2775]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/height[2804,2810]::height->field_70131_O
+Rename field net/minecraft/entity/Entity/posZ[2827,2831]::posZ->field_70161_v
+Import: com.momo.hormone.MoMoFramework
+Import: com.momo.hormone.item.ModItems
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.entity.monster.EntityPolarBear
+Import: net.minecraft.entity.passive.*
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.EnumParticleTypes
+Import: net.minecraft.world.World
+Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+End  Processing: com/momo/hormone/events/hormone/plant/InstantGrowth.java
+
+Start Processing: com/momo/hormone/events/hormone/plant/NetherWartGrow.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[964,975]::getHeldItem->func_184586_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1121,1134]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1170,1178]::getBlock->func_177230_c
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1212,1219]::getItem->func_77973_b
+Rename field net/minecraft/init/Blocks/NETHER_WART[1274,1285]::NETHER_WART->field_150388_bm
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[1324,1332]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockNetherWart/AGE[1354,1357]::AGE->field_176486_a
+Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[1414,1422]::swingArm->func_184609_a
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1475,1487]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1490,1504]::isCreativeMode->field_75098_d
+Rename method net/minecraft/item/ItemStack/shrink (I)V[1555,1561]::shrink->func_190918_g
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[1765,1768]::add->func_177982_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1844,1857]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1920,1928]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[2314,2330]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2413,2425]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockNetherWart/AGE[2443,2446]::AGE->field_176486_a
+Rename field net/minecraft/world/World/isRemote[2488,2496]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[2541,2554]::setBlockState->func_180501_a
+Rename method net/minecraft/world/WorldServer/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;ZDDDIDDDD[I)V[2633,2646]::spawnParticle->func_180505_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2689,2693]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2717,2721]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2745,2749]::getZ->func_177952_p
+Import: com.momo.hormone.MoMoFramework
+Import: com.momo.hormone.item.ModItems
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.BlockNetherWart
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.EnumParticleTypes
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.World
+Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+End  Processing: com/momo/hormone/events/hormone/plant/NetherWartGrow.java
 
 Start Processing: com/momo/hormone/events/simpleFarming/ExtraDrop.java
 New Key: class net/minecraftforge/fml/common/Mod
@@ -1785,11 +1815,14 @@ Rename field net/minecraft/init/Items/RABBIT[1296,1302]::RABBIT->field_179558_bo
 Rename field net/minecraft/init/Items/PORKCHOP[1373,1381]::PORKCHOP->field_151147_al
 Rename field net/minecraft/init/Items/MUTTON[1450,1456]::MUTTON->field_179561_bm
 Rename field net/minecraft/init/Items/BEEF[1527,1531]::BEEF->field_151082_bd
-Rename field net/minecraft/init/Items/COOKED_CHICKEN[1689,1703]::COOKED_CHICKEN->field_151077_bg
-Rename field net/minecraft/init/Items/COOKED_RABBIT[1769,1782]::COOKED_RABBIT->field_179559_bp
-Rename field net/minecraft/init/Items/COOKED_PORKCHOP[1849,1864]::COOKED_PORKCHOP->field_151157_am
-Rename field net/minecraft/init/Items/COOKED_MUTTON[1929,1942]::COOKED_MUTTON->field_179557_bn
-Rename field net/minecraft/init/Items/COOKED_BEEF[2009,2020]::COOKED_BEEF->field_151083_be
+Rename field net/minecraft/init/Items/COOKED_BEEF[1609,1620]::COOKED_BEEF->field_151083_be
+Rename field net/minecraft/init/Items/COOKED_MUTTON[1691,1704]::COOKED_MUTTON->field_179557_bn
+Rename field net/minecraft/init/Items/COOKED_CHICKEN[1774,1788]::COOKED_CHICKEN->field_151077_bg
+Rename field net/minecraft/init/Items/COOKED_CHICKEN[1936,1950]::COOKED_CHICKEN->field_151077_bg
+Rename field net/minecraft/init/Items/COOKED_RABBIT[2016,2029]::COOKED_RABBIT->field_179559_bp
+Rename field net/minecraft/init/Items/COOKED_PORKCHOP[2096,2111]::COOKED_PORKCHOP->field_151157_am
+Rename field net/minecraft/init/Items/COOKED_MUTTON[2176,2189]::COOKED_MUTTON->field_179557_bn
+Rename field net/minecraft/init/Items/COOKED_BEEF[2256,2267]::COOKED_BEEF->field_151083_be
 Import: com.momo.hormone.item.ModItems
 Import: net.minecraft.init.Blocks
 Import: net.minecraft.init.Items
@@ -1882,98 +1915,109 @@ Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab
 Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1376,1390]::setCreativeTab->func_77637_a
 Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1480,1494]::setCreativeTab->func_77637_a
 Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1588,1602]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1719,1733]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1847,1861]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1974,1988]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2103,2117]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2228,2242]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2353,2367]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[2482,2497]::setPotionEffect->func_185070_a
-Rename field net/minecraft/init/MobEffects/HUNGER[2524,2530]::HUNGER->field_76438_s
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2556,2570]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2667,2681]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2783,2797]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2895,2909]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3015,3029]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3125,3139]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3235,3249]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3347,3361]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3455,3469]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3563,3577]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3675,3689]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3803,3817]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3927,3941]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4049,4063]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4165,4179]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4275,4289]::setCreativeTab->func_77637_a
-Rename field net/minecraft/init/Blocks/AIR[4549,4552]::AIR->field_150350_a
-Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[4565,4580]::setMaxStackSize->func_77625_d
-Rename field net/minecraft/init/Blocks/FLOWING_WATER[4667,4680]::FLOWING_WATER->field_150358_i
-Rename method net/minecraft/item/Item/setContainerItem (Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;[4683,4699]::setContainerItem->func_77642_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4798,4812]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4928,4942]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5059,5073]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5194,5208]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5321,5335]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5453,5467]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5583,5597]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5721,5735]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5872,5886]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5998,6012]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6138,6152]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6277,6291]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6418,6432]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6559,6573]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6702,6716]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6832,6846]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6964,6978]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7104,7118]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7247,7261]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7365,7379]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7502,7516]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7629,7643]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7760,7774]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7882,7896]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8001,8015]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8129,8143]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8253,8267]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8379,8393]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8478,8492]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8593,8607]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8712,8726]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8833,8847]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8952,8966]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[9057,9072]::setPotionEffect->func_185070_a
-Rename field net/minecraft/init/MobEffects/STRENGTH[9099,9107]::STRENGTH->field_76420_g
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9132,9146]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[9172,9187]::setMaxStackSize->func_77625_d
-Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[9258,9273]::setPotionEffect->func_185070_a
-Rename field net/minecraft/init/MobEffects/HASTE[9300,9305]::HASTE->field_76422_e
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9333,9347]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[9373,9388]::setMaxStackSize->func_77625_d
-Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[9469,9484]::setPotionEffect->func_185070_a
-Rename field net/minecraft/init/MobEffects/SPEED[9511,9516]::SPEED->field_76424_c
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9544,9558]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[9584,9599]::setMaxStackSize->func_77625_d
-Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[9680,9695]::setPotionEffect->func_185070_a
-Rename field net/minecraft/init/MobEffects/REGENERATION[9722,9734]::REGENERATION->field_76428_l
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9755,9769]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[9795,9810]::setMaxStackSize->func_77625_d
-Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[9885,9900]::setPotionEffect->func_185070_a
-Rename field net/minecraft/init/MobEffects/INSTANT_DAMAGE[9927,9941]::INSTANT_DAMAGE->field_76433_i
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9956,9970]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10055,10069]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10173,10187]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10275,10289]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10383,10397]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10477,10491]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10592,10606]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10708,10722]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10824,10838]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10944,10958]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11062,11076]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11176,11190]::setCreativeTab->func_77637_a
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11290,11304]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1692,1706]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1823,1837]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1951,1965]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2078,2092]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2207,2221]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2332,2346]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2457,2471]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[2586,2601]::setPotionEffect->func_185070_a
+Rename field net/minecraft/init/MobEffects/HUNGER[2628,2634]::HUNGER->field_76438_s
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2660,2674]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[2785,2800]::setPotionEffect->func_185070_a
+Rename field net/minecraft/init/MobEffects/REGENERATION[2827,2839]::REGENERATION->field_76428_l
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2859,2873]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2970,2984]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3086,3100]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3198,3212]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3318,3332]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3428,3442]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3538,3552]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3650,3664]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3758,3772]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3866,3880]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3978,3992]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4086,4100]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4214,4228]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4338,4352]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4460,4474]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4576,4590]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[4686,4700]::setCreativeTab->func_77637_a
+Rename field net/minecraft/init/Blocks/AIR[4960,4963]::AIR->field_150350_a
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[4976,4991]::setMaxStackSize->func_77625_d
+Rename field net/minecraft/init/Blocks/FLOWING_WATER[5078,5091]::FLOWING_WATER->field_150358_i
+Rename method net/minecraft/item/Item/setContainerItem (Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;[5094,5110]::setContainerItem->func_77642_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5209,5223]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5339,5353]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5470,5484]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5605,5619]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5732,5746]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5864,5878]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[5994,6008]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6132,6146]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6283,6297]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6409,6423]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6549,6563]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6688,6702]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6829,6843]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[6970,6984]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7113,7127]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7243,7257]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7375,7389]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7515,7529]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7658,7672]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7776,7790]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[7913,7927]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8040,8054]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8171,8185]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8293,8307]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8423,8437]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8561,8575]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8695,8709]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8823,8837]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[8949,8963]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9080,9094]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9205,9219]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9327,9341]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9447,9461]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9575,9589]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9674,9688]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9789,9803]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[9908,9922]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10029,10043]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10148,10162]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[10253,10268]::setPotionEffect->func_185070_a
+Rename field net/minecraft/init/MobEffects/STRENGTH[10295,10303]::STRENGTH->field_76420_g
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10328,10342]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[10368,10383]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[10454,10469]::setPotionEffect->func_185070_a
+Rename field net/minecraft/init/MobEffects/HASTE[10496,10501]::HASTE->field_76422_e
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10529,10543]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[10569,10584]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[10665,10680]::setPotionEffect->func_185070_a
+Rename field net/minecraft/init/MobEffects/SPEED[10707,10712]::SPEED->field_76424_c
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10740,10754]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[10780,10795]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[10876,10891]::setPotionEffect->func_185070_a
+Rename field net/minecraft/init/MobEffects/REGENERATION[10918,10930]::REGENERATION->field_76428_l
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[10951,10965]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[10991,11006]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/ItemFood/setPotionEffect (Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;[11081,11096]::setPotionEffect->func_185070_a
+Rename field net/minecraft/init/MobEffects/INSTANT_DAMAGE[11123,11137]::INSTANT_DAMAGE->field_76433_i
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11152,11166]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11251,11265]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11369,11383]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11471,11485]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11579,11593]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11673,11687]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11788,11802]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[11904,11918]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[12020,12034]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[12140,12154]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[12258,12272]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[12372,12386]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[12486,12500]::setCreativeTab->func_77637_a
 Import: com.momo.hormone.init.ModCreativeTab
 Import: com.momo.hormone.item.food.ItemBowlFood
 Import: com.momo.hormone.item.food.ItemDrink
@@ -2950,15 +2994,15 @@ Import: static com.momo.hormone.MoMoFramework.LogWarning
 End  Processing: com/momo/hormone/recipe/ModRecipe.java
 
 Start Processing: com/momo/hormone/recipe/SmeltingRecipe.java
-Rename field net/minecraft/init/Items/BLAZE_POWDER[1019,1031]::BLAZE_POWDER->field_151065_br
-Rename field net/minecraft/init/Items/APPLE[1065,1070]::APPLE->field_151034_e
-Rename field net/minecraft/init/Items/CARROT[1144,1150]::CARROT->field_151172_bF
-Rename field net/minecraft/init/Items/BEETROOT[1225,1233]::BEETROOT->field_185164_cV
-Rename field net/minecraft/init/Items/EGG[1308,1311]::EGG->field_151110_aK
-Rename field net/minecraft/init/Items/DYE[1483,1486]::DYE->field_151100_aR
-Rename field net/minecraft/init/Items/BAKED_POTATO[1725,1737]::BAKED_POTATO->field_151168_bH
-Rename field net/minecraft/init/Items/MELON[1971,1976]::MELON->field_151127_ba
-Rename field net/minecraft/init/Items/WHEAT[2050,2055]::WHEAT->field_151015_O
+Rename field net/minecraft/init/Items/BLAZE_POWDER[1098,1110]::BLAZE_POWDER->field_151065_br
+Rename field net/minecraft/init/Items/APPLE[1144,1149]::APPLE->field_151034_e
+Rename field net/minecraft/init/Items/CARROT[1223,1229]::CARROT->field_151172_bF
+Rename field net/minecraft/init/Items/BEETROOT[1304,1312]::BEETROOT->field_185164_cV
+Rename field net/minecraft/init/Items/EGG[1387,1390]::EGG->field_151110_aK
+Rename field net/minecraft/init/Items/DYE[1562,1565]::DYE->field_151100_aR
+Rename field net/minecraft/init/Items/BAKED_POTATO[1804,1816]::BAKED_POTATO->field_151168_bH
+Rename field net/minecraft/init/Items/MELON[2050,2055]::MELON->field_151127_ba
+Rename field net/minecraft/init/Items/WHEAT[2129,2134]::WHEAT->field_151015_O
 Import: com.momo.hormone.item.ModItems
 Import: net.minecraft.block.Block
 Import: net.minecraft.init.Items
