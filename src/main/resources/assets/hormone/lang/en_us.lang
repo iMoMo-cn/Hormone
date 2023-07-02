@@ -11,6 +11,7 @@ item.paste_seeds.name=Seeds Paste
 item.paste_bone.name=Bone Paste
 item.paste_fish.name=Fish Paste
 item.paste_rotten.name=Rotten Paste
+item.paste_holy.name=Holy Paste
 
 item.biscuit_flower.name=Flower Biscuit
 item.biscuit_wheat.name=Wheat Biscuit
@@ -19,6 +20,7 @@ item.biscuit_seeds.name=Seeds Biscuit
 item.biscuit_bone.name=Bone Biscuit
 item.biscuit_fish.name=Fish Biscuit
 item.biscuit_rotten.name=Rotten Biscuit
+item.biscuit_holy.name=Holy Biscuit
 
 item.knife.name=Kitchen Knife
 item.knife.desc=§oTiny, sharp and unbreakble!
@@ -58,13 +60,24 @@ item.meat_salad.name=Meat Salad
 item.hearty_salad.name=Hearty Salad
 
 item.caramel.name=Caramel
-item.toffee.name=Milk Toffee
-item.chocolate.name=Chocolate
+item.honey_beef.name=Honey Steak
+item.honey_porkchop.name=Cooked Honey Porkchop
+item.honey_mutton.name=Cooked Honey Mutton
+
 item.pumpkin_stew.name=Pumpkin Stew
 item.mushroom_stew.name=Sweet Mushroom Stew
+item.chicken_mushroom.name=Chicken Braised with Mushroom
+item.mutton_carrot.name=Mutton Braised with Carrot
+item.beef_potato.name=Beef Braised with Potato
+
+item.toffee.name=Milk Toffee
+item.chocolate.name=Chocolate
 
 item.glass_cup.name=Glass Cup
 item.water_cup.name=Water Cup
+item.apple_juice.name=Apple Juice
+item.carrot_juice.name=Carrot Juice
+item.melon_juice.name=Melon Juice
 item.lava_cup.name=Lava Cup
 item.beer.name=Wheat Beer
 item.beer.desc=§oDrunk but excited
@@ -109,6 +122,8 @@ item.hormone_fish.name=Growth Hormone(Fish)
 item.hormone_fish.desc=§oFor ocelots, cats and polor bears
 item.hormone_rotten.name=Rotten Hormone
 item.hormone_rotten.desc=§oCorrupt the soul and even the body...
+item.hormone_holy.name=Holy Hormone
+item.hormone_holy.desc=§oHuge damage to the undead
 item.hormone_mushroom_brown.name=Seed Bag(Brown Mushroom)
 item.hormone_mushroom_brown.desc=§oCan plant it on farmland
 item.hormone_mushroom_red.name=Seed Bag(Red Mushroom)

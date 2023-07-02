@@ -1,10 +1,9 @@
-package com.momo.hormone.events.hormone.rotten;
+package com.momo.hormone.events.hormone.aniaml;
 
 import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
-import net.minecraft.entity.boss.EntityWither;
 import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.entity.monster.EntityWitch;
 import net.minecraft.entity.monster.EntityWitherSkeleton;

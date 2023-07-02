@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:cooked_mutton"
+    },
+    {
+      "item": "hormone:caramel"
+    }
+  ],
+  "result": {
+    "item": "hormone:honey_mutton",
+    "count": 1
+  }
+}

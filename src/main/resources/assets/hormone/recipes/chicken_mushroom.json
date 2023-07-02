@@ -7,14 +7,14 @@
     },
     {
       "type": "forge:ore_dict",
-      "ore": "listAllmeatraw"
+      "ore": "listAllchickencooked"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "minecraft:rotten_flesh",
+    "item": "hormone:chicken_mushroom",
     "count": 1
   }
 }

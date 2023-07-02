@@ -1,10 +1,9 @@
-package com.momo.hormone.events.hormone.growth;
+package com.momo.hormone.events.hormone.plant;
 
 import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockNetherWart;
-import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "hormone:caramel"
+    }
+  ],
+  "result": {
+    "item": "hormone:honey_porkchop",
+    "count": 1
+  }
+}

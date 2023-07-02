@@ -3,18 +3,22 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "listAllmushroom"
+      "ore": "listAllmeatraw"
     },
     {
       "type": "forge:ore_dict",
       "ore": "listAllmeatraw"
     },
     {
-      "item": "minecraft:sugar"
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatraw"
+    },
+    {
+      "item": "hormone:paste_rotten"
     }
   ],
   "result": {
     "item": "minecraft:rotten_flesh",
-    "count": 1
+    "count": 3
   }
 }

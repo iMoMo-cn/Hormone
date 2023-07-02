@@ -1,4 +1,4 @@
-package com.momo.hormone.events.hormone.growth;
+package com.momo.hormone.events.hormone.plant;
 
 import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;

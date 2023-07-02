@@ -30,6 +30,7 @@ public class ModItems {
 	public static final Item PASTE_BONE = new ItemBase("paste_bone").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item PASTE_FISH = new ItemBase("paste_fish").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item PASTE_ROTTEN = new ItemBase("paste_rotten").setCreativeTab(ModCreativeTab.HORMONE);
+	public static final Item PASTE_HOLY = new ItemBase("paste_holy").setCreativeTab(ModCreativeTab.HORMONE);
 
 	public static final Item BISCUIT_FLOWER = new ItemFoodBase("biscuit_flower",2, 1.0F,false).setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item BISCUIT_WHEAT = new ItemFoodBase("biscuit_wheat",3, 2.0F,false).setCreativeTab(ModCreativeTab.HORMONE);
@@ -38,6 +39,7 @@ public class ModItems {
 	public static final Item BISCUIT_BONE = new ItemFoodBase("biscuit_bone",3,2.0F,false).setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item BISCUIT_FISH = new ItemFoodBase("biscuit_fish",4,3.0F,false).setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item BISCUIT_ROTTEN = new ItemFoodBase("biscuit_rotten",3,0.5F,false).setPotionEffect(new PotionEffect(MobEffects.HUNGER, 20*20, 0), 0.5F).setCreativeTab(ModCreativeTab.HORMONE);
+	public static final Item BISCUIT_HOLY = new ItemFoodBase("biscuit_holy",3,1.0F,false).setPotionEffect(new PotionEffect(MobEffects.REGENERATION, 20*20, 0), 1.0F).setCreativeTab(ModCreativeTab.HORMONE);
 
 	public static final Item HORMONE_EMPTY = new ItemBase("hormone_empty").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_BONEMEAL = new ItemBase("hormone_bonemeal").setCreativeTab(ModCreativeTab.HORMONE);
@@ -49,6 +51,7 @@ public class ModItems {
 	public static final Item HORMONE_BONE = new ItemBase("hormone_bone").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_FISH = new ItemBase("hormone_fish").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_ROTTEN = new ItemBase("hormone_rotten").setCreativeTab(ModCreativeTab.HORMONE);
+	public static final Item HORMONE_HOLY = new ItemBase("hormone_holy").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_MUSHROOM_BROWN = new ItemBase("hormone_mushroom_brown").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_MUSHROOM_RED = new ItemBase("hormone_mushroom_red").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_GOLD_CARROT = new ItemBase("hormone_gold_carrot").setCreativeTab(ModCreativeTab.HORMONE);
@@ -89,10 +92,18 @@ public class ModItems {
 	public static final Item HEARTY_SALAD = new ItemFoodBase("hearty_salad", 5, 4.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 
 	public static final Item CARAMEL = new ItemFoodBase("caramel", 1, 0.5F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+    public static final Item HONEY_BEEF = new ItemFoodBase("honey_beef", 9, 3.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+    public static final Item HONEY_PORKCHOP = new ItemFoodBase("honey_porkchop", 9, 3.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+    public static final Item HONEY_MUTTON = new ItemFoodBase("honey_mutton", 7, 2.5F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+
+    public static final Item PUMPKIN_STEW = new ItemBowlFood("pumpkin_stew", 6, 7.2F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+	public static final Item MUSHROOM_STEW = new ItemBowlFood("mushroom_stew", 6, 7.2F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+	public static final Item CHICKEN_MUSHROOM = new ItemBowlFood("chicken_mushroom", 9, 11F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+	public static final Item MUTTON_CARROT = new ItemBowlFood("mutton_carrot", 9, 11F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+	public static final Item BEEF_POTATO = new ItemBowlFood("beef_potato", 11, 13F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+
 	public static final Item TOFFEE = new ItemFoodBase("toffee", 1, 0.2F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
     public static final Item CHOCOLATE = new ItemFoodBase("chocolate", 2, 1.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
-	public static final Item PUMPKIN_STEW = new ItemBowlFood("pumpkin_stew", 6, 7.2F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
-	public static final Item MUSHROOM_STEW = new ItemBowlFood("mushroom_stew", 6, 7.2F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 
 	public static final Item GLASS_CUP = new ItemGlassCup().setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 	public static final Item WATER_CUP = new ItemDrink("water_cup", 0, 0.0F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);

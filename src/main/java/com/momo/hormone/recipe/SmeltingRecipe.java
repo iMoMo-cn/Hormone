@@ -19,6 +19,7 @@ public class SmeltingRecipe {
         add(ModItems.PASTE_SEEDS, new ItemStack(ModItems.BISCUIT_SEEDS), 0.3F);
         add(ModItems.PASTE_WHEAT, new ItemStack(ModItems.BISCUIT_WHEAT), 0.3F);
         add(ModItems.PASTE_ROTTEN, new ItemStack(ModItems.BISCUIT_ROTTEN), 0.3F);
+        add(ModItems.PASTE_HOLY, new ItemStack(ModItems.BISCUIT_HOLY), 0.3F);
 
         add(ModItems.BLACK_POWDER, new ItemStack(Items.BLAZE_POWDER), 0.3F);
 

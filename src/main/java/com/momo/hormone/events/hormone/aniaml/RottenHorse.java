@@ -1,4 +1,4 @@
-package com.momo.hormone.events.hormone.rotten;
+package com.momo.hormone.events.hormone.aniaml;
 
 import com.momo.hormone.MoMoFramework;
 import com.momo.hormone.item.ModItems;

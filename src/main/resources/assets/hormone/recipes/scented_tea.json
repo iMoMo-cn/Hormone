@@ -1,8 +1,13 @@
 {
   "type": "forge:ore_shapeless",
   "ingredients": [
-    { "item": "hormone:water_cup" },
-    { "item": "minecraft:red_flower", "data": 32767 }
+    {
+      "item": "hormone:water_cup"
+    },
+    {
+      "item": "minecraft:red_flower",
+      "data": 32767
+    }
   ],
   "result": {
     "item": "hormone:scented_tea",

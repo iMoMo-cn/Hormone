@@ -1,17 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " A ",
-    "A A",
-    " A "
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "hormone:fibre"
+    }
   ],
-  "key": {
-    "A": {
-      "item": "minecraft:paper"
-    }
-  },
-    "result": {
-      "item": "hormone:hormone_empty",
-      "count": 2
-    }
+  "result": {
+    "item": "hormone:hormone_empty",
+    "count": 3
+  }
 }

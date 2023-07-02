@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0":"hormone:items/pumpkin_slice"
+    "layer0":"hormone:items/honey_beef"
   }
 }

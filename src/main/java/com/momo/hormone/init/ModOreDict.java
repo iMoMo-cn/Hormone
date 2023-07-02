@@ -29,6 +29,10 @@ public class ModOreDict {
         OreDictionary.registerOre("listAllmeatraw", Items.MUTTON);
         OreDictionary.registerOre("listAllmeatraw", Items.BEEF);
 
+        OreDictionary.registerOre("listAllbeefcooked", Items.COOKED_BEEF);
+        OreDictionary.registerOre("listAllmuttoncooked", Items.COOKED_MUTTON);
+        OreDictionary.registerOre("listAllchickencooked", Items.COOKED_CHICKEN);
+
         OreDictionary.registerOre("listAllmeatcooked", ModItems.COOKED_FLESH);
         OreDictionary.registerOre("listAllmeatcooked", Items.COOKED_CHICKEN);
         OreDictionary.registerOre("listAllmeatcooked", Items.COOKED_RABBIT);

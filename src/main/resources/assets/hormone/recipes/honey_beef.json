@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "hormone:caramel"
+    }
+  ],
+  "result": {
+    "item": "hormone:honey_beef",
+    "count": 1
+  }
+}

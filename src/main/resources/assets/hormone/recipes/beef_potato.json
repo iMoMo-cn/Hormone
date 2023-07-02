@@ -3,18 +3,17 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "listAllmushroom"
+      "ore": "listAllbeefcooked"
     },
     {
-      "type": "forge:ore_dict",
-      "ore": "listAllmeatraw"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "minecraft:rotten_flesh",
+    "item": "hormone:beef_potato",
     "count": 1
   }
 }

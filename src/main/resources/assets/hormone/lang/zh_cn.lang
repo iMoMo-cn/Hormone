@@ -11,6 +11,7 @@ item.paste_seeds.name=种子糜
 item.paste_bone.name=骨头糜
 item.paste_fish.name=鱼肉糜
 item.paste_rotten.name=腐化糜
+item.paste_holy.name=神圣糜
 
 item.biscuit_flower.name=鲜花饼干
 item.biscuit_wheat.name=小麦饼干
@@ -19,6 +20,7 @@ item.biscuit_seeds.name=种子饼干
 item.biscuit_bone.name=骨饼干
 item.biscuit_fish.name=鱼饼干
 item.biscuit_rotten.name=腐化饼干
+item.biscuit_holy.name=神圣饼干
 
 item.knife.name=厨刀
 item.knife.desc=§o小巧、锋利且永不损坏！
@@ -58,13 +60,24 @@ item.meat_salad.name=肉食沙拉
 item.hearty_salad.name=丰盛沙拉
 
 item.caramel.name=焦糖
-item.toffee.name=牛奶太妃糖
-item.chocolate.name=巧克力
+item.honey_beef.name=蜜汁牛排
+item.honey_porkchop.name=蜜汁猪排
+item.honey_mutton.name=蜜汁羊排
+
 item.pumpkin_stew.name=南瓜煲
 item.mushroom_stew.name=香甜蘑菇煲
+item.chicken_mushroom.name=蘑菇炖鸡
+item.mutton_carrot.name=萝卜炖羊肉
+item.beef_potato.name=土豆炖牛肉
+
+item.toffee.name=牛奶太妃糖
+item.chocolate.name=巧克力
 
 item.glass_cup.name=玻璃杯
 item.water_cup.name=水杯
+item.apple_juice.name=苹果汁
+item.carrot_juice.name=胡萝卜汁
+item.melon_juice.name=西瓜汁
 item.lava_cup.name=熔岩杯
 item.beer.name=小麦啤酒
 item.beer.desc=§o易醉，也易热血沸腾
@@ -109,6 +122,8 @@ item.hormone_fish.name=生长激素（鱼肉制）
 item.hormone_fish.desc=§o适用对象:豹猫、猫、北极熊
 item.hormone_rotten.name=腐化激素
 item.hormone_rotten.desc=§o腐化灵魂，甚至肉体...
+item.hormone_holy.name=神圣激素
+item.hormone_holy.desc=§o对亡灵造成巨额伤害
 item.hormone_mushroom_brown.name=种子袋（棕蘑菇）
 item.hormone_mushroom_brown.desc=§o可以种在耕地上
 item.hormone_mushroom_red.name=种子袋（红蘑菇）

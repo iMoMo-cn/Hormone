@@ -3,18 +3,17 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "listAllmushroom"
+      "ore": "listAllmuttoncooked"
     },
     {
-      "type": "forge:ore_dict",
-      "ore": "listAllmeatraw"
+      "item": "hormone:baked_carrot"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "minecraft:rotten_flesh",
+    "item": "hormone:mutton_carrot",
     "count": 1
   }
 }
