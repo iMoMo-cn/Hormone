@@ -25,7 +25,7 @@ public class ItemDrink extends ItemFoodBase {
             if(!player.addItemStackToInventory(itemStack) && !worldIn.isRemote)
             {
                 player.dropItem(itemStack, false);
-                worldIn.spawnEntity(new EntityItem(worldIn, player.posX, player.posY, player.posZ, new ItemStack(Items.GLASS_BOTTLE)));
+                worldIn.spawnEntity(new EntityItem(worldIn, player.posX, player.posY, player.posZ, new ItemStack(ModItems.GLASS_CUP)));
             }
         }
         return super.onItemUseFinish(stack, worldIn, entityLiving);

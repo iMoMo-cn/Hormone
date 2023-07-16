@@ -4,6 +4,7 @@ import com.momo.hormone.blocks.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
@@ -22,32 +23,35 @@ public class WildPlantGen implements IWorldGenerator {
         final BlockPos chunkPos = new BlockPos(x, 0, z);
         final Biome biome  = world.getChunkFromBlockCoords(chunkPos).getBiome(chunkPos, world.getBiomeProvider());
 
-        if(BiomeDictionary.hasType(biome, BiomeDictionary.Type.PLAINS)){
-            switch(random.nextInt(4)){
-                case 0:
-                    generatePlant(ModBlocks.WILD_POTATO, world, blockPos, random);
-                    break;
-                case 1:
-                    generatePlant(ModBlocks.WILD_CARROT, world, blockPos, random);
-                    break;
-                case 2:
-                    generatePlant(ModBlocks.WILD_BEET, world, blockPos, random);
-                    break;
-                case 3:
-                    generatePlant(ModBlocks.WILD_WHEAT, world, blockPos, random);
-                    break;
-            }
-        }
-
-        if(BiomeDictionary.hasType(biome, BiomeDictionary.Type.FOREST))
+        if(world.getWorldType() != WorldType.FLAT && world.getWorldType() != WorldType.DEBUG_ALL_BLOCK_STATES)
         {
-            switch(random.nextInt(2)) {
-                case 0:
-                    generatePlant(ModBlocks.WILD_WHEAT, world, blockPos, random);
-                    break;
-                case 1:
-                    generatePlant(ModBlocks.WILD_BEET, world, blockPos, random);
-                    break;
+            if(BiomeDictionary.hasType(biome, BiomeDictionary.Type.PLAINS)){
+                switch(random.nextInt(4)){
+                    case 0:
+                        generatePlant(ModBlocks.WILD_POTATO, world, blockPos, random);
+                        break;
+                    case 1:
+                        generatePlant(ModBlocks.WILD_CARROT, world, blockPos, random);
+                        break;
+                    case 2:
+                        generatePlant(ModBlocks.WILD_BEET, world, blockPos, random);
+                        break;
+                    case 3:
+                        generatePlant(ModBlocks.WILD_WHEAT, world, blockPos, random);
+                        break;
+                }
+            }
+
+            if(BiomeDictionary.hasType(biome, BiomeDictionary.Type.FOREST))
+            {
+                switch(random.nextInt(2)) {
+                    case 0:
+                        generatePlant(ModBlocks.WILD_WHEAT, world, blockPos, random);
+                        break;
+                    case 1:
+                        generatePlant(ModBlocks.WILD_BEET, world, blockPos, random);
+                        break;
+                }
             }
         }
     }

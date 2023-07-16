@@ -24,6 +24,8 @@ item.biscuit_holy.name=神圣饼干
 
 item.knife.name=厨刀
 item.knife.desc=§o小巧、锋利且永不损坏！
+item.saw.name=手锯
+item.saw.desc=§o小巧、锋利且永不损坏！
 item.hammer.name=手锤
 item.hammer.desc=§o小巧、坚硬且永不损坏！
 item.shears.name=剪刀

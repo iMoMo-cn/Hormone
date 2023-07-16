@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0":"hormone:items/apple_juice"
+    "layer0":"hormone:items/saw"
   }
 }

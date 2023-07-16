@@ -24,6 +24,8 @@ item.biscuit_holy.name=Holy Biscuit
 
 item.knife.name=Kitchen Knife
 item.knife.desc=§oTiny, sharp and unbreakble!
+item.saw.name=Hand Saw
+item.saw.desc=§oTiny, sharp and unbreakble!
 item.hammer.name=Hand Hammer
 item.hammer.desc=§oTiny, hard and unbreakble!
 item.shears.name=Shears

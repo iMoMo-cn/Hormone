@@ -6,10 +6,7 @@ import com.momo.hormone.item.food.ItemDrink;
 import com.momo.hormone.item.food.ItemFoodBase;
 import com.momo.hormone.item.misc.ItemFibre;
 import com.momo.hormone.item.misc.ItemGlassCup;
-import com.momo.hormone.item.tools.Hammer;
-import com.momo.hormone.item.tools.Knife;
-import com.momo.hormone.item.tools.Shears;
-import com.momo.hormone.item.tools.WoodBucket;
+import com.momo.hormone.item.tools.*;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.*;
@@ -60,6 +57,7 @@ public class ModItems {
 
 	public static final ItemSword KNIFE = new Knife();
 	public static final ItemPickaxe HAMMER = new Hammer();
+	public static final ItemAxe SAW = new Saw();
 	public static final ItemShears SHEARS = new Shears();
 	public static final Item BUCKET = new WoodBucket("wood_bucket", Blocks.AIR).setMaxStackSize(16);
 	public static final Item WATER_BUCKET = new WoodBucket("wood_bucket_water", Blocks.FLOWING_WATER).setContainerItem(BUCKET);

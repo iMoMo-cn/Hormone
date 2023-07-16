@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " AC",
+    " AB",
+    " AC"
+  ],
+  "key": {
+    "A": { "type": "forge:ore_dict", "ore": "stickWood" },
+    "B": { "type": "forge:ore_dict", "ore": "ingotIron" },
+    "C": { "item": "hormone:fibre" }
+  },
+  "result": {
+    "item": "hormone:saw",
+    "count" : 1
+  }
+}

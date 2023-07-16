@@ -1,7 +1,5 @@
 package com.momo.hormone.blocks.blockBush;
 
-
-
 import com.momo.hormone.blocks.ModBlocks;
 import com.momo.hormone.util.IHasModel;
 import net.minecraft.block.Block;
@@ -22,7 +20,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nullable;
 import java.util.Random;
-
 
 public class BlockWildPlant extends BlockBush implements IHasModel {
 
@@ -49,15 +46,10 @@ public class BlockWildPlant extends BlockBush implements IHasModel {
     public static final AxisAlignedBB NULL_AABB = null;
 
     protected static final AxisAlignedBB CROP_AABB = new AxisAlignedBB(0.1D, 0.0D, 0.1D, 0.9D, 0.8D, 0.9D);
-    protected static final AxisAlignedBB CARROT_AABB = new AxisAlignedBB(0.34D, 0.0D, 0.34D, 0.67D, 0.8D, 0.67D);
-    protected static final AxisAlignedBB BEET_AABB = new AxisAlignedBB(0.34D, 0.0D, 0.34D, 0.67D, 0.55D, 0.67D);
 
     public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
     {
-        Block block = state.getBlock();
-        if(block == ModBlocks.WILD_CARROT) return CARROT_AABB;
-        else if(block == ModBlocks.WILD_BEET) return BEET_AABB;
-        else return CROP_AABB;
+        return CROP_AABB;
     }
 
     @Nullable

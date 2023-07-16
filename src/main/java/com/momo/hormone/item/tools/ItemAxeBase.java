@@ -29,9 +29,9 @@ public class ItemAxeBase extends ItemAxe implements IHasModel
     protected boolean use_flavor = false;
     protected boolean logNBT = false;
 
-    public ItemAxeBase(String name, ToolMaterial material, CreativeTabs creativeTabs, Float damage, Float speed)
+    public ItemAxeBase(String name, ToolMaterial material, CreativeTabs creativeTabs)
     {
-        super(material, damage, speed);
+        super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
         ModItems.ITEMS.add(this);
