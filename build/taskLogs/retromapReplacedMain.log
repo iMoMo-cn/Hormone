@@ -1680,9 +1680,12 @@ Rename field net/minecraft/entity/player/EntityPlayer/capabilities[3515,3527]::c
 Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[3530,3544]::isCreativeMode->field_75098_d
 Rename method net/minecraft/item/ItemStack/shrink (I)V[3557,3563]::shrink->func_190918_g
 Rename field net/minecraft/world/World/isRemote[3598,3606]::isRemote->field_72995_K
-Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[3773,3786]::setBlockState->func_180501_a
-Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[3791,3794]::add->func_177982_a
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3821,3836]::getDefaultState->func_176223_P
+Rename field net/minecraft/init/Blocks/DIRT[3786,3790]::DIRT->field_150346_d
+Rename field net/minecraft/init/Blocks/GRASS[3820,3825]::GRASS->field_150349_c
+Rename field net/minecraft/init/Blocks/MYCELIUM[3854,3862]::MYCELIUM->field_150391_bh
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[3925,3938]::setBlockState->func_180501_a
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[3943,3946]::add->func_177982_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3973,3988]::getDefaultState->func_176223_P
 Import: com.momo.hormone.MoMoFramework
 Import: com.momo.hormone.blocks.ModBlocks
 Import: com.momo.hormone.item.ModItems
@@ -3007,9 +3010,9 @@ Rename field net/minecraft/init/Items/CARROT[1223,1229]::CARROT->field_151172_bF
 Rename field net/minecraft/init/Items/BEETROOT[1304,1312]::BEETROOT->field_185164_cV
 Rename field net/minecraft/init/Items/EGG[1387,1390]::EGG->field_151110_aK
 Rename field net/minecraft/init/Items/DYE[1562,1565]::DYE->field_151100_aR
-Rename field net/minecraft/init/Items/BAKED_POTATO[1804,1816]::BAKED_POTATO->field_151168_bH
-Rename field net/minecraft/init/Items/MELON[2050,2055]::MELON->field_151127_ba
-Rename field net/minecraft/init/Items/WHEAT[2129,2134]::WHEAT->field_151015_O
+Rename field net/minecraft/init/Items/BAKED_POTATO[1807,1819]::BAKED_POTATO->field_151168_bH
+Rename field net/minecraft/init/Items/MELON[2053,2058]::MELON->field_151127_ba
+Rename field net/minecraft/init/Items/WHEAT[2132,2137]::WHEAT->field_151015_O
 Import: com.momo.hormone.item.ModItems
 Import: net.minecraft.block.Block
 Import: net.minecraft.init.Items

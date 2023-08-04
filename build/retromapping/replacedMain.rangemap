@@ -4897,7 +4897,7 @@ Class Start: com.momo.hormone.events.simpleFarming.ExtraDrop
 Class End  : com.momo.hormone.events.simpleFarming.ExtraDrop
 endProcessing "com/momo/hormone/events/simpleFarming/ExtraDrop.java"
 
-startProcessing "com/momo/hormone/events/simpleFarming/PlantCrops.java" md5: b72a0c42aec8f9520a79bbcd2a5f8926
+startProcessing "com/momo/hormone/events/simpleFarming/PlantCrops.java" md5: e74d37724a158056d3f4d7daf0562d91
 @|com/momo/hormone/events/simpleFarming/PlantCrops.java|8|45|com.momo.hormone.events.simpleFarming|package|com.momo.hormone.events.simpleFarming|(file)
 Class Start: com.momo.hormone.events.simpleFarming.PlantCrops
    @|com/momo/hormone/events/simpleFarming/PlantCrops.java|912|934|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
@@ -5026,12 +5026,21 @@ Class Start: com.momo.hormone.events.simpleFarming.PlantCrops
       @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3404|3410|shrink|method|net.minecraft.item.ItemStack|shrink|(I)V
       @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3432|3437|world|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|world|0
       @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3438|3446|isRemote|field|net.minecraft.world.World|isRemote
-      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3602|3607|world|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|world|0
-      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3608|3621|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3622|3625|pos|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|pos|1
-      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3626|3629|add|method|net.minecraft.util.math.BlockPos|add|(III)Lnet/minecraft/util/math/BlockPos;
-      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3640|3645|block|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|block|2
-      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3646|3661|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3605|3610|block|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|block|2
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3614|3620|Blocks|class|net.minecraft.init.Blocks|false
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3621|3625|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3629|3634|block|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|block|2
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3638|3644|Blocks|class|net.minecraft.init.Blocks|false
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3645|3650|GRASS|field|net.minecraft.init.Blocks|GRASS
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3654|3659|block|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|block|2
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3663|3669|Blocks|class|net.minecraft.init.Blocks|false
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3670|3678|MYCELIUM|field|net.minecraft.init.Blocks|MYCELIUM
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3728|3733|world|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|world|0
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3734|3747|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3748|3751|pos|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|pos|1
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3752|3755|add|method|net.minecraft.util.math.BlockPos|add|(III)Lnet/minecraft/util/math/BlockPos;
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3766|3771|block|param|com.momo.hormone.events.simpleFarming.PlantCrops|plantBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V|block|2
+      @|com/momo/hormone/events/simpleFarming/PlantCrops.java|3772|3787|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
    Method End: plantBlock(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V
 Class End  : com.momo.hormone.events.simpleFarming.PlantCrops
 endProcessing "com/momo/hormone/events/simpleFarming/PlantCrops.java"
@@ -10225,7 +10234,7 @@ Class Start: com.momo.hormone.recipe.ModRecipe
 Class End  : com.momo.hormone.recipe.ModRecipe
 endProcessing "com/momo/hormone/recipe/ModRecipe.java"
 
-startProcessing "com/momo/hormone/recipe/SmeltingRecipe.java" md5: 0a30f62d47fd3cfd9d2a09b08655a566
+startProcessing "com/momo/hormone/recipe/SmeltingRecipe.java" md5: 6a60017adac41e03de6523443c395025
 @|com/momo/hormone/recipe/SmeltingRecipe.java|8|31|com.momo.hormone.recipe|package|com.momo.hormone.recipe|(file)
 Class Start: com.momo.hormone.recipe.SmeltingRecipe
    @|com/momo/hormone/recipe/SmeltingRecipe.java|328|342|SmeltingRecipe|class|com.momo.hormone.recipe.SmeltingRecipe|false
@@ -10319,130 +10328,130 @@ Class Start: com.momo.hormone.recipe.SmeltingRecipe
       @|com/momo/hormone/recipe/SmeltingRecipe.java|1506|1515|ItemStack|class|net.minecraft.item.ItemStack|false
       @|com/momo/hormone/recipe/SmeltingRecipe.java|1516|1521|Items|class|net.minecraft.init.Items|false
       @|com/momo/hormone/recipe/SmeltingRecipe.java|1522|1525|DYE|field|net.minecraft.init.Items|DYE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1535|1544|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1545|1553|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1554|1563|CHOCOLATE|field|com.momo.hormone.item.ModItems|CHOCOLATE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1584|1587|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1588|1596|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1597|1608|BAKED_APPLE|field|com.momo.hormone.item.ModItems|BAKED_APPLE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1614|1623|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1624|1632|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1633|1643|COAL_APPLE|field|com.momo.hormone.item.ModItems|COAL_APPLE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1662|1665|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1666|1674|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1675|1687|BAKED_CARROT|field|com.momo.hormone.item.ModItems|BAKED_CARROT
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1693|1702|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1703|1711|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1712|1723|COAL_CARROT|field|com.momo.hormone.item.ModItems|COAL_CARROT
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1742|1745|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1746|1751|Items|class|net.minecraft.init.Items|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1752|1764|BAKED_POTATO|field|net.minecraft.init.Items|BAKED_POTATO
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1770|1779|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1780|1788|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1789|1800|COAL_POTATO|field|com.momo.hormone.item.ModItems|COAL_POTATO
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1819|1822|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1823|1831|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1832|1846|BAKED_BEETROOT|field|com.momo.hormone.item.ModItems|BAKED_BEETROOT
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1852|1861|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1862|1870|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1871|1884|COAL_BEETROOT|field|com.momo.hormone.item.ModItems|COAL_BEETROOT
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1903|1906|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1907|1915|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1916|1929|PUMPKIN_SLICE|field|com.momo.hormone.item.ModItems|PUMPKIN_SLICE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1935|1944|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1945|1953|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1954|1966|COAL_PUMPKIN|field|com.momo.hormone.item.ModItems|COAL_PUMPKIN
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1985|1988|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1989|1994|Items|class|net.minecraft.init.Items|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|1995|2000|MELON|field|net.minecraft.init.Items|MELON
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2006|2015|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2016|2024|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2025|2035|COAL_MELON|field|com.momo.hormone.item.ModItems|COAL_MELON
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2054|2057|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2058|2063|Items|class|net.minecraft.init.Items|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2064|2069|WHEAT|field|net.minecraft.init.Items|WHEAT
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2075|2084|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2085|2093|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2094|2104|COAL_WHEAT|field|com.momo.hormone.item.ModItems|COAL_WHEAT
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2125|2128|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2129|2137|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2138|2153|DICED_VEGETABLE|field|com.momo.hormone.item.ModItems|DICED_VEGETABLE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2159|2168|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2169|2177|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2178|2200|COOKED_DICED_VEGETABLE|field|com.momo.hormone.item.ModItems|COOKED_DICED_VEGETABLE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2219|2222|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2223|2231|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2232|2242|DICED_MEAT|field|com.momo.hormone.item.ModItems|DICED_MEAT
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2248|2257|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2258|2266|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2267|2284|COOKED_DICED_MEAT|field|com.momo.hormone.item.ModItems|COOKED_DICED_MEAT
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2303|2306|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2307|2315|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2316|2333|VEGETABLE_SKEWERS|field|com.momo.hormone.item.ModItems|VEGETABLE_SKEWERS
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2339|2348|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2349|2357|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2358|2376|VEGETABLE_BARBECUE|field|com.momo.hormone.item.ModItems|VEGETABLE_BARBECUE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2395|2398|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2399|2407|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2408|2420|MEAT_SKEWERS|field|com.momo.hormone.item.ModItems|MEAT_SKEWERS
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2426|2435|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2436|2444|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2445|2458|MEAT_BARBECUE|field|com.momo.hormone.item.ModItems|MEAT_BARBECUE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2477|2480|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2481|2489|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2490|2506|MUSHROOM_SKEWERS|field|com.momo.hormone.item.ModItems|MUSHROOM_SKEWERS
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2512|2521|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2522|2530|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2531|2548|MUSHROOM_BARBECUE|field|com.momo.hormone.item.ModItems|MUSHROOM_BARBECUE
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2567|2570|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2571|2579|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2580|2597|CLASSICAL_SKEWERS|field|com.momo.hormone.item.ModItems|CLASSICAL_SKEWERS
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2603|2612|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2613|2621|ModItems|class|com.momo.hormone.item.ModItems|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2622|2640|CLASSICAL_BARBECUE|field|com.momo.hormone.item.ModItems|CLASSICAL_BARBECUE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1538|1547|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1548|1556|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1557|1566|CHOCOLATE|field|com.momo.hormone.item.ModItems|CHOCOLATE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1587|1590|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1591|1599|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1600|1611|BAKED_APPLE|field|com.momo.hormone.item.ModItems|BAKED_APPLE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1617|1626|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1627|1635|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1636|1646|COAL_APPLE|field|com.momo.hormone.item.ModItems|COAL_APPLE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1665|1668|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1669|1677|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1678|1690|BAKED_CARROT|field|com.momo.hormone.item.ModItems|BAKED_CARROT
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1696|1705|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1706|1714|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1715|1726|COAL_CARROT|field|com.momo.hormone.item.ModItems|COAL_CARROT
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1745|1748|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1749|1754|Items|class|net.minecraft.init.Items|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1755|1767|BAKED_POTATO|field|net.minecraft.init.Items|BAKED_POTATO
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1773|1782|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1783|1791|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1792|1803|COAL_POTATO|field|com.momo.hormone.item.ModItems|COAL_POTATO
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1822|1825|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1826|1834|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1835|1849|BAKED_BEETROOT|field|com.momo.hormone.item.ModItems|BAKED_BEETROOT
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1855|1864|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1865|1873|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1874|1887|COAL_BEETROOT|field|com.momo.hormone.item.ModItems|COAL_BEETROOT
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1906|1909|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1910|1918|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1919|1932|PUMPKIN_SLICE|field|com.momo.hormone.item.ModItems|PUMPKIN_SLICE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1938|1947|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1948|1956|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1957|1969|COAL_PUMPKIN|field|com.momo.hormone.item.ModItems|COAL_PUMPKIN
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1988|1991|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1992|1997|Items|class|net.minecraft.init.Items|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|1998|2003|MELON|field|net.minecraft.init.Items|MELON
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2009|2018|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2019|2027|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2028|2038|COAL_MELON|field|com.momo.hormone.item.ModItems|COAL_MELON
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2057|2060|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2061|2066|Items|class|net.minecraft.init.Items|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2067|2072|WHEAT|field|net.minecraft.init.Items|WHEAT
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2078|2087|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2088|2096|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2097|2107|COAL_WHEAT|field|com.momo.hormone.item.ModItems|COAL_WHEAT
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2128|2131|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2132|2140|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2141|2156|DICED_VEGETABLE|field|com.momo.hormone.item.ModItems|DICED_VEGETABLE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2162|2171|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2172|2180|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2181|2203|COOKED_DICED_VEGETABLE|field|com.momo.hormone.item.ModItems|COOKED_DICED_VEGETABLE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2222|2225|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2226|2234|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2235|2245|DICED_MEAT|field|com.momo.hormone.item.ModItems|DICED_MEAT
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2251|2260|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2261|2269|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2270|2287|COOKED_DICED_MEAT|field|com.momo.hormone.item.ModItems|COOKED_DICED_MEAT
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2306|2309|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2310|2318|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2319|2336|VEGETABLE_SKEWERS|field|com.momo.hormone.item.ModItems|VEGETABLE_SKEWERS
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2342|2351|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2352|2360|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2361|2379|VEGETABLE_BARBECUE|field|com.momo.hormone.item.ModItems|VEGETABLE_BARBECUE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2398|2401|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2402|2410|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2411|2423|MEAT_SKEWERS|field|com.momo.hormone.item.ModItems|MEAT_SKEWERS
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2429|2438|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2439|2447|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2448|2461|MEAT_BARBECUE|field|com.momo.hormone.item.ModItems|MEAT_BARBECUE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2480|2483|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2484|2492|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2493|2509|MUSHROOM_SKEWERS|field|com.momo.hormone.item.ModItems|MUSHROOM_SKEWERS
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2515|2524|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2525|2533|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2534|2551|MUSHROOM_BARBECUE|field|com.momo.hormone.item.ModItems|MUSHROOM_BARBECUE
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2570|2573|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2574|2582|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2583|2600|CLASSICAL_SKEWERS|field|com.momo.hormone.item.ModItems|CLASSICAL_SKEWERS
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2606|2615|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2616|2624|ModItems|class|com.momo.hormone.item.ModItems|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2625|2643|CLASSICAL_BARBECUE|field|com.momo.hormone.item.ModItems|CLASSICAL_BARBECUE
    Method End: addSmeltingRecipe()V
    Method Start: add(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2693|2698|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|input|0
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2719|2725|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|output|1
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2733|2735|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|xp|2
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2683|2686|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2687|2692|Block|class|net.minecraft.block.Block|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2701|2708|Nonnull|class|javax.annotation.Nonnull|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2709|2718|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2753|2765|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2766|2777|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2778|2783|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|input|0
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2785|2791|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|output|1
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2793|2795|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|xp|2
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2696|2701|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|input|0
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2722|2728|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|output|1
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2736|2738|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|xp|2
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2686|2689|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2690|2695|Block|class|net.minecraft.block.Block|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2704|2711|Nonnull|class|javax.annotation.Nonnull|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2712|2721|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2756|2768|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2769|2780|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2781|2786|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|input|0
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2788|2794|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|output|1
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2796|2798|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V|xp|2
    Method End: add(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
    Method Start: add(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2840|2845|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|input|0
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2866|2872|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|output|1
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2880|2882|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|xp|2
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2831|2834|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2835|2839|Item|class|net.minecraft.item.Item|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2848|2855|Nonnull|class|javax.annotation.Nonnull|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2856|2865|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2900|2912|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2913|2924|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2925|2930|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|input|0
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2932|2938|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|output|1
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2940|2942|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|xp|2
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2843|2848|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|input|0
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2869|2875|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|output|1
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2883|2885|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|xp|2
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2834|2837|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2838|2842|Item|class|net.minecraft.item.Item|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2851|2858|Nonnull|class|javax.annotation.Nonnull|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2859|2868|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2903|2915|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2916|2927|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2928|2933|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|input|0
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2935|2941|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|output|1
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2943|2945|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V|xp|2
    Method End: add(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
    Method Start: add(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3001|3006|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|input|0
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3027|3033|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|output|1
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3041|3043|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|xp|2
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2978|2981|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2983|2990|Nonnull|class|javax.annotation.Nonnull|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|2991|3000|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3009|3016|Nonnull|class|javax.annotation.Nonnull|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3017|3026|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3061|3073|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3074|3085|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3086|3091|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|input|0
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3093|3099|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|output|1
-      @|com/momo/hormone/recipe/SmeltingRecipe.java|3101|3103|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|xp|2
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3004|3009|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|input|0
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3030|3036|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|output|1
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3044|3046|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|xp|2
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2981|2984|add|method|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2986|2993|Nonnull|class|javax.annotation.Nonnull|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|2994|3003|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3012|3019|Nonnull|class|javax.annotation.Nonnull|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3020|3029|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3064|3076|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3077|3088|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3089|3094|input|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|input|0
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3096|3102|output|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|output|1
+      @|com/momo/hormone/recipe/SmeltingRecipe.java|3104|3106|xp|param|com.momo.hormone.recipe.SmeltingRecipe|add|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V|xp|2
    Method End: add(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;F)V
 Class End  : com.momo.hormone.recipe.SmeltingRecipe
 endProcessing "com/momo/hormone/recipe/SmeltingRecipe.java"

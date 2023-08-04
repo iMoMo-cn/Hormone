@@ -1,0 +1,14 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": { "type": "forge:ore_dict", "ore": "blockGlass" }
+  },
+  "result": {
+    "item": "hormone:glass_cup",
+    "count" : 5
+  }
+}

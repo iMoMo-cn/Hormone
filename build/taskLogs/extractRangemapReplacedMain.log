@@ -110,7 +110,7 @@ endProcessing "com/momo/hormone/events/hormone/plant/NetherWartGrow.java"
 startProcessing "com/momo/hormone/events/simpleFarming/ExtraDrop.java" md5: e8382ccb5495ae1d838b11dc8dde1da2
 endProcessing "com/momo/hormone/events/simpleFarming/ExtraDrop.java"
 
-startProcessing "com/momo/hormone/events/simpleFarming/PlantCrops.java" md5: b72a0c42aec8f9520a79bbcd2a5f8926
+startProcessing "com/momo/hormone/events/simpleFarming/PlantCrops.java" md5: e74d37724a158056d3f4d7daf0562d91
 endProcessing "com/momo/hormone/events/simpleFarming/PlantCrops.java"
 
 startProcessing "com/momo/hormone/events/simpleFarming/PlantsDrop.java" md5: 5cf4bebfb8e8e25e5cdaa55a6b060728
@@ -281,7 +281,7 @@ endProcessing "com/momo/hormone/proxy/ServerProxy.java"
 startProcessing "com/momo/hormone/recipe/ModRecipe.java" md5: e1207d8935202f266646edd48cbaaaac
 endProcessing "com/momo/hormone/recipe/ModRecipe.java"
 
-startProcessing "com/momo/hormone/recipe/SmeltingRecipe.java" md5: 0a30f62d47fd3cfd9d2a09b08655a566
+startProcessing "com/momo/hormone/recipe/SmeltingRecipe.java" md5: 6a60017adac41e03de6523443c395025
 endProcessing "com/momo/hormone/recipe/SmeltingRecipe.java"
 
 startProcessing "com/momo/hormone/util/AchvDef.java" md5: f01b7ad9abc6998a31ffb758b69d8472

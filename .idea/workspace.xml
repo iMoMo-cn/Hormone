@@ -5,24 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/momo/hormone/blocks/blockBush/BlockWildPlant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/momo/hormone/blocks/blockBush/BlockWildPlant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/food/ItemDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/food/ItemDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/tools/ItemAxeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/tools/ItemAxeBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/momo/hormone/worldgen/WildPlantGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/momo/hormone/worldgen/WildPlantGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/lang/en_us.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/lang/en_us.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/lang/zh_cn.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/lang/zh_cn.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/apple_juice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/apple_juice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/blocks/wild_beet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/blocks/wild_beet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/blocks/wild_carrot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/blocks/wild_carrot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/blocks/wild_potato.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/blocks/wild_potato.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/blocks/wild_wheat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/blocks/wild_wheat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/items/honey_beef.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/items/honey_beef.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/items/honey_mutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/items/honey_mutton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/items/honey_porkchop.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/textures/items/honey_porkchop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/momo/hormone/events/simpleFarming/PlantCrops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/momo/hormone/events/simpleFarming/PlantCrops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/momo/hormone/recipe/SmeltingRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/momo/hormone/recipe/SmeltingRecipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/saw.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/saw.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,11 +63,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/init/ModOreDict.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/recipe/SmeltingRecipe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -142,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/melon_slice.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/honey_beef.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/honey_mutton.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/honey_beef.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/honey_mutton.json" />
@@ -166,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/hormone_holy.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/paste_holy.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/biscuit_holy.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/momo/hormone/recipe/SmeltingRecipe.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/paste_holy.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_holy.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/leather.json" />
@@ -179,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/tools/Hammer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/tools/ItemAxeBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/tools/Saw.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/saw.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/momo/hormone/item/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/saw.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/wood_stick.json" />
@@ -193,6 +183,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/wheat_seed.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/beetroot_seeds.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/momo/hormone/blocks/blockBush/BlockWildPlant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/momo/hormone/recipe/SmeltingRecipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/momo/hormone/events/simpleFarming/PlantCrops.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/glass_cup.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/saw.json" />
       </list>
     </option>
   </component>
@@ -212,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,29 +278,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="momo" type="462c0819:PsiDirectoryNode" />
               <item name="hormone" type="462c0819:PsiDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="momo" type="462c0819:PsiDirectoryNode" />
-              <item name="hormone" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="momo" type="462c0819:PsiDirectoryNode" />
-              <item name="hormone" type="462c0819:PsiDirectoryNode" />
-              <item name="worldgen" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
@@ -353,11 +324,22 @@
               <item name="hormone" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hormone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hormone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="hormone" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,12 +351,8 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Xrain\Desktop\Hormone\src\main\resources\assets\hormone\recipes" />
-      <recent name="C:\Users\Xrain\Desktop\Hormone\src\main\resources\assets\hormone\models\item" />
-      <recent name="C:\Users\Xrain\Desktop\Hormone\src\main\resources\assets\hormone\models\block" />
-      <recent name="C:\Users\Xrain\Desktop\Hormone\src\main\resources\assets\hormone\blockstates" />
-      <recent name="C:\Users\Xrain\Desktop\HarderEquipments\src\main\resources\assets\heq\models\item\bow_pulling" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Xrain\Desktop\MoreCows\src\main\resources\assets\morecows\advancements\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.momo.hormone.item.tools" />
@@ -383,8 +361,12 @@
       <recent name="com.momo.hormone.events.hormone.growth" />
       <recent name="com.momo.mmf.util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Xrain\Desktop\MoreCows\src\main\resources\assets\morecows\advancements\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Xrain\Desktop\Hormone\src\main\resources\assets\hormone\recipes" />
+      <recent name="C:\Users\Xrain\Desktop\Hormone\src\main\resources\assets\hormone\models\item" />
+      <recent name="C:\Users\Xrain\Desktop\Hormone\src\main\resources\assets\hormone\models\block" />
+      <recent name="C:\Users\Xrain\Desktop\Hormone\src\main\resources\assets\hormone\blockstates" />
+      <recent name="C:\Users\Xrain\Desktop\HarderEquipments\src\main\resources\assets\heq\models\item\bow_pulling" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -490,7 +472,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64447594" visible="true" weight="0.22922252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64447594" visible="true" weight="0.24262735" />
       <window_info id="Structure" order="1" sideWeight="0.3555241" side_tool="true" weight="0.2774799" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -590,118 +572,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/leather.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/rotten_flesh.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/rotten_flesh_1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/potato.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_fish.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_empty.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/hormone/plant/FlowerHormone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/hormone/aniaml/RottenHorse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/EntityLivingBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="872" column="19" selection-start-line="872" selection-start-column="19" selection-end-line="872" selection-end-column="19" />
-          <folding>
-            <element signature="e#31991#31992#0" expanded="true" />
-            <element signature="e#32073#32074#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="567" column="48" selection-start-line="567" selection-start-column="42" selection-end-line="567" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/hormone/plant/BonemealHormone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/entity/EntityLiving.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="315" column="229" selection-start-line="315" selection-start-column="226" selection-end-line="315" selection-end-column="229" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/hormone/plant/InstantGrowth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="1242" column="16" selection-start-line="1242" selection-start-column="16" selection-end-line="1242" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/hormone/aniaml/RottenMob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/hormone/aniaml/HolyMob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,31 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/recipe/SmeltingRecipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/models/item/apple_juice.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/lang/zh_cn.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/lang/en_us.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -775,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/saw.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/apple.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -809,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/planks_acacia.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -854,9 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/pasteball.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/ModStarterEvents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -868,13 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/simpleFarming/PlantCrops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -892,30 +721,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/item/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/wheat_seeds.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/beetroot_seeds.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/wheat_seeds.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/beetroot_seeds.json" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/blocks/ModBlocks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -930,10 +737,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/planks_acacia.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/recipe/ModRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/pasteball.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/black_powder.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_gold_carrot.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_grass.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/simpleFarming/PlantCrops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="100" column="96" selection-start-line="100" selection-start-column="96" selection-end-line="100" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_mushroom.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/hormone/plant/FlowerHormone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_empty.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/coffee.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/glass_cup.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hammer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_flower_pro.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_flower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/hormone_mushroom_brown.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/events/hormone/aniaml/HolyMob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/init/ModOreDict.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/wood_bucket.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/lang/zh_cn.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/lang/en_us.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/item/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="111" column="48" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hormone/recipes/saw.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/momo/hormone/recipe/SmeltingRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
         </state>
       </provider>
     </entry>

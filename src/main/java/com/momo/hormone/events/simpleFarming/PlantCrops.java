@@ -98,7 +98,10 @@ public class PlantCrops {
             {
                 for(int j = -1; j <= 1; j++)
                 {
-                    world.setBlockState(pos.add(i, 0, j), block.getDefaultState(), 3);
+                    if(block == Blocks.DIRT || block == Blocks.GRASS || block == Blocks.MYCELIUM)
+                    {
+                        world.setBlockState(pos.add(i, 0, j), block.getDefaultState(), 3);
+                    }
                 }
             }
         }

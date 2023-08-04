@@ -1,9 +1,9 @@
 {
   "type": "forge:ore_shaped",
   "pattern": [
-    " AC",
+    " CB",
     " AB",
-    " AC"
+    " A "
   ],
   "key": {
     "A": { "type": "forge:ore_dict", "ore": "stickWood" },

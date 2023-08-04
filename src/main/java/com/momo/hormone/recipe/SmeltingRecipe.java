@@ -28,7 +28,7 @@ public class SmeltingRecipe {
         add(Items.BEETROOT, new ItemStack(ModItems.BAKED_BEETROOT), 0.3F);
         add(Items.EGG, new ItemStack(ModItems.COOKED_EGG), 0.3F);
         add(ModItems.SCRAPED_FLESH, new ItemStack(ModItems.COOKED_FLESH), 0.3F);
-        add(new ItemStack(Items.DYE, 3), new ItemStack(ModItems.CHOCOLATE), 0.3F);
+        add(new ItemStack(Items.DYE, 1, 3), new ItemStack(ModItems.CHOCOLATE), 0.3F);
 
         add(ModItems.BAKED_APPLE, new ItemStack(ModItems.COAL_APPLE), 0.5F);
         add(ModItems.BAKED_CARROT, new ItemStack(ModItems.COAL_CARROT), 0.5F);
