@@ -164,3 +164,5 @@ tile.mushroom_red.name=红蘑菇
 tile.mushroom_brown.name=棕蘑菇
 
 entity.Villager.hormone.HormoneMerchant=激素商人
+entity.Villager.hormone.SeedBagMerchant=种子商人
+entity.Villager.hormone.BarbecueMaster=烤串师傅

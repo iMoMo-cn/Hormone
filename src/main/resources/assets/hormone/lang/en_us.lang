@@ -164,3 +164,5 @@ tile.mushroom_red.name=Red Mushroom
 tile.mushroom_brown.name=Brown Mushroom
 
 entity.Villager.hormone.HormoneMerchant=Hormone Merchant
+entity.Villager.hormone.SeedBagMerchant=Seed Bag Merchant
+entity.Villager.hormone.BarbecueMaster=Barbecue Master

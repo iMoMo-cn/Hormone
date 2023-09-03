@@ -90,9 +90,9 @@ public class ModItems {
 	public static final Item HEARTY_SALAD = new ItemFoodBase("hearty_salad", 5, 4.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 
 	public static final Item CARAMEL = new ItemFoodBase("caramel", 1, 0.5F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
-    public static final Item HONEY_BEEF = new ItemFoodBase("honey_beef", 9, 3.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
-    public static final Item HONEY_PORKCHOP = new ItemFoodBase("honey_porkchop", 9, 3.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
-    public static final Item HONEY_MUTTON = new ItemFoodBase("honey_mutton", 7, 2.5F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+    public static final Item HONEY_BEEF = new ItemFoodBase("honey_beef", 9, 16.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+    public static final Item HONEY_PORKCHOP = new ItemFoodBase("honey_porkchop", 9, 16.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+    public static final Item HONEY_MUTTON = new ItemFoodBase("honey_mutton", 7, 12.0F, false).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 
     public static final Item PUMPKIN_STEW = new ItemBowlFood("pumpkin_stew", 6, 7.2F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 	public static final Item MUSHROOM_STEW = new ItemBowlFood("mushroom_stew", 6, 7.2F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
@@ -108,6 +108,7 @@ public class ModItems {
 	public static final Item APPLE_JUICE = new ItemDrink("apple_juice", 4, 2.0F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 	public static final Item CARROT_JUICE = new ItemDrink("carrot_juice", 3, 1.5F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 	public static final Item MELON_JUICE = new ItemDrink("melon_juice", 2, 1.0F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
+	public static final Item BEETROOT_JUICE = new ItemDrink("beetroot_juice", 1, 1.0F).setCreativeTab(ModCreativeTab.EXTRA_FOOD);
 	public static final Item BEER = new ItemDrink("beer", 2, 2.0F).setPotionEffect(new PotionEffect(MobEffects.STRENGTH, 20*120, 0), 1.0F).setCreativeTab(ModCreativeTab.EXTRA_FOOD).setMaxStackSize(16);
 	public static final Item COFFEE = new ItemDrink("coffee", 2, 2.0F).setPotionEffect(new PotionEffect(MobEffects.HASTE, 20*120, 0), 1.0F).setCreativeTab(ModCreativeTab.EXTRA_FOOD).setMaxStackSize(16);
 	public static final Item SUGAR_WATER = new ItemDrink("sugar_water", 2, 2.0F).setPotionEffect(new PotionEffect(MobEffects.SPEED, 20*120, 0), 1.0F).setCreativeTab(ModCreativeTab.EXTRA_FOOD).setMaxStackSize(16);

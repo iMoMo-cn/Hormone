@@ -17,10 +17,11 @@ public class ModVillagers {
     public static final VillagerRegistry.VillagerProfession HORMONE_MERCHANT = new ProfessionBase("hormone_merchant");
     public static final VillagerRegistry.VillagerCareer HORMONE_MERCHANT_CARRER = new CareerBase(HORMONE_MERCHANT, "HormoneMerchant");
 
+    public static final VillagerRegistry.VillagerProfession SEED_BAG_MERCHANT = new ProfessionBase("seed_bag_merchant");
+    public static final VillagerRegistry.VillagerCareer SEED_BAG_MERCHANT_CARRER = new CareerBase(SEED_BAG_MERCHANT, "SeedBagMerchant");
 
-
-
-
+    public static final VillagerRegistry.VillagerProfession BARBECUE_MASTER = new ProfessionBase("barbecue_master");
+    public static final VillagerRegistry.VillagerCareer BARBECUE_MASTER_CARRER = new CareerBase(BARBECUE_MASTER, "BarbecueMaster");
 
     public static class ProfessionBase extends VillagerRegistry.VillagerProfession{
 

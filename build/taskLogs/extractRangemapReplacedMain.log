@@ -152,7 +152,7 @@ endProcessing "com/momo/hormone/item/ItemBase.java"
 startProcessing "com/momo/hormone/item/ItemBurnable.java" md5: 5ed88e62d83792650e722945efead102
 endProcessing "com/momo/hormone/item/ItemBurnable.java"
 
-startProcessing "com/momo/hormone/item/ModItems.java" md5: 6d55c0c976b5add082a6edc8d750c11c
+startProcessing "com/momo/hormone/item/ModItems.java" md5: e83e3e4f483207b0d857b0ef8aaf6f10
 endProcessing "com/momo/hormone/item/ModItems.java"
 
 startProcessing "com/momo/hormone/item/armors/ItemArmorBase.java" md5: 11c13c3932ab5a6d58c65ad9d2ba7810

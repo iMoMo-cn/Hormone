@@ -1,0 +1,19 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBeetroot"
+    },
+    {
+      "item": "hormone:glass_cup"
+    },
+    {
+      "item": "hormone:hammer"
+    }
+  ],
+  "result": {
+    "item": "hormone:beetroot_juice",
+    "count": 1
+  }
+}
