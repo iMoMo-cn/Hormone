@@ -49,6 +49,7 @@ public class ModItems {
 	public static final Item HORMONE_FISH = new ItemBase("hormone_fish").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_ROTTEN = new ItemBase("hormone_rotten").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_HOLY = new ItemBase("hormone_holy").setCreativeTab(ModCreativeTab.HORMONE);
+	public static final Item HORMONE_WILD = new ItemBase("hormone_wild").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_MUSHROOM_BROWN = new ItemBase("hormone_mushroom_brown").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_MUSHROOM_RED = new ItemBase("hormone_mushroom_red").setCreativeTab(ModCreativeTab.HORMONE);
 	public static final Item HORMONE_GOLD_CARROT = new ItemBase("hormone_gold_carrot").setCreativeTab(ModCreativeTab.HORMONE);
@@ -59,6 +60,7 @@ public class ModItems {
 	public static final ItemPickaxe HAMMER = new Hammer();
 	public static final ItemAxe SAW = new Saw();
 	public static final ItemShears SHEARS = new Shears();
+	public static final Item GRINDSTONE = new Grindstone();
 	public static final Item BUCKET = new WoodBucket("wood_bucket", Blocks.AIR).setMaxStackSize(16);
 	public static final Item WATER_BUCKET = new WoodBucket("wood_bucket_water", Blocks.FLOWING_WATER).setContainerItem(BUCKET);
 

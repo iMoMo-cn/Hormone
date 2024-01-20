@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict", "ore": "plankWood"
+    },
+    {
+      "type": "forge:ore_dict", "ore": "ingotIron"
+    },
+    {
+      "item": "hormone:fibre"
+    }
+  ],
+  "result": {
+    "item": "hormone:grindstone",
+    "count": 1
+  }
+}

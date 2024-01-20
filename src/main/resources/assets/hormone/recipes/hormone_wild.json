@@ -1,0 +1,28 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "hormone:hormone_empty"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropPotato"
+    },
+	{
+      "type": "forge:ore_dict",
+      "ore": "cropCarrot"
+    },
+	{
+      "type": "forge:ore_dict",
+      "ore": "cropWheat"
+    },
+	{
+      "type": "forge:ore_dict",
+      "ore": "cropBeetroot"
+    }
+  ],
+  "result": {
+    "item": "hormone:hormone_wild",
+    "count": 1
+  }
+}
